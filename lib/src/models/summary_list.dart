@@ -1,4 +1,6 @@
-abstract class SummaryList<T> {
+import 'package:flutter/foundation.dart';
+
+abstract class SummaryList<T extends List> {
   int? available;
   int? returned;
   String? collectionUri;
@@ -12,7 +14,7 @@ abstract class SummaryList<T> {
           available == other.available &&
           returned == other.returned &&
           collectionUri == other.collectionUri &&
-          items == other.items;
+          listEquals(items, other.items);
 
   @override
   int get hashCode =>

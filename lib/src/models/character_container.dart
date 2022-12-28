@@ -12,4 +12,9 @@ class CharacterDataContainer extends DataContainer<List<Character>?> {
     super.results = List<Character>.from(
         json['results'].map((model) => Character.fromJson(model)));
   }
+
+  @override
+  String toString() {
+    return super.toString();
+  }
 }

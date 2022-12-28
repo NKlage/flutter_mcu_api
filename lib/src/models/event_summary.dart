@@ -2,7 +2,7 @@ class EventSummary {
   final String? resourceUri;
   final String? name;
 
-  EventSummary(this.resourceUri, this.name);
+  EventSummary({this.resourceUri, this.name});
 
   EventSummary.fromJson(Map<String, dynamic> json)
       : resourceUri = json['resourceURI'],

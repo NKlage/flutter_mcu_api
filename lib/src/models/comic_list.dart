@@ -2,6 +2,7 @@ import 'comic_summary.dart';
 import 'summary_list.dart';
 
 class ComicList extends SummaryList<List<ComicSummary>> {
+  ComicList();
   ComicList.fromJson(Map<String, dynamic> json) {
     super.available = json['available'];
     super.returned = json['returned'];

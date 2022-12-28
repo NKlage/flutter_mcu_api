@@ -1,8 +1,5 @@
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
-import 'image.dart';
-import 'url.dart';
-
 class Character {
   final int? id;
   final String? name;
@@ -41,4 +38,40 @@ class Character {
         stories = StoryList.fromJson(json['stories']),
         events = EventList.fromJson(json['stories']),
         series = SeriesList.fromJson(json['series']);
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Character &&
+          runtimeType == other.runtimeType &&
+          id == other.id &&
+          name == other.name &&
+          description == other.description &&
+          modified == other.modified &&
+          resourceUri == other.resourceUri &&
+          urls == other.urls &&
+          thumbnail == other.thumbnail &&
+          comics == other.comics &&
+          stories == other.stories &&
+          events == other.events &&
+          series == other.series;
+
+  @override
+  int get hashCode =>
+      id.hashCode ^
+      name.hashCode ^
+      description.hashCode ^
+      modified.hashCode ^
+      resourceUri.hashCode ^
+      urls.hashCode ^
+      thumbnail.hashCode ^
+      comics.hashCode ^
+      stories.hashCode ^
+      events.hashCode ^
+      series.hashCode;
+
+  @override
+  String toString() {
+    return 'Character{id: $id, name: $name, description: $description, modified: $modified, resourceUri: $resourceUri, urls: $urls, thumbnail: $thumbnail, comics: $comics, stories: $stories, events: $events, series: $series}';
+  }
 }
