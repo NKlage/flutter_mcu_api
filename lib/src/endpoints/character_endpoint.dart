@@ -4,12 +4,20 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
+/// Endpoint for the characters of the Marvel API
 class CharacterEndpoint {
+  /// URL segment for the characters
   final String _apiSegment = '/characters';
+
+  /// DIO HttpClient
   final Dio httpClient;
 
+  /// Constructor [httpClient] can be passed optionally
   CharacterEndpoint(this.httpClient);
 
+  /// Fetches a list of characters or a single character if the optional [id] is specified.
+  /// [args] are optional and are added to the HTTP request as queryParamters
+  /// See: https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
   Future<ApiResponse<CharacterDataContainer>> fetch(
       {int? id, Map<String, dynamic>? args}) async {
     try {

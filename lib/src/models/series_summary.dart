@@ -1,9 +1,15 @@
+/// Represents a SeriesSummary
 class SeriesSummary {
+  /// The path to the individual series resource.
   final String? resourceUri;
+
+  /// The canonical name of the series.
   final String? name;
 
+  /// Default Constructor
   SeriesSummary({this.resourceUri, this.name});
 
+  /// Convert from JSON
   SeriesSummary.fromJson(Map<String, dynamic> json)
       : resourceUri = json['resourceURI'],
         name = json['name'];

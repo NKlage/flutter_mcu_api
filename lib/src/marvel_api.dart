@@ -4,12 +4,24 @@ import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
+/// Handles the Marvel REST API
+///
+/// Requires the Marvel private and public keys (https://developer.marvel.com/documentation/getting_started)
 class MarvelApi {
+  /// Public API Key
   final String publicApiKey;
+
+  /// Private API Key
   final String privateApiKey;
+
+  /// Optional Dio HTTP Client
   Dio? httpClient;
   final String _baseUrl = 'https://gateway.marvel.com:443/v1/public';
 
+  /// The [privateApiKey] and [privateApiKey] of the Marvel API are required.
+  /// The DIO client adds the required apikey, ts (timestamp) and hash through an
+  /// interceptor so that the data can be retrieved.
+  /// see: https://developer.marvel.com/documentation/authorization
   MarvelApi(
       {required this.publicApiKey,
       required this.privateApiKey,
@@ -22,6 +34,7 @@ class MarvelApi {
     );
   }
 
+  /// Get the Marvel API Character Endpoint and fetch characters
   CharacterEndpoint get character => CharacterEndpoint(httpClient!);
 }
 

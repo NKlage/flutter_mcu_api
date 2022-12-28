@@ -1,9 +1,15 @@
+/// Represents a EventSummary
 class EventSummary {
+  /// The path to the individual event resource.
   final String? resourceUri;
+
+  /// The name of the event.
   final String? name;
 
+  /// Default Constructor
   EventSummary({this.resourceUri, this.name});
 
+  /// Convert from JSON
   EventSummary.fromJson(Map<String, dynamic> json)
       : resourceUri = json['resourceURI'],
         name = json['name'];

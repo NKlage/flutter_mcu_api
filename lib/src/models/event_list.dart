@@ -1,9 +1,12 @@
 import 'package:flutter_marvel_api/src/models/event_summary.dart';
 import 'package:flutter_marvel_api/src/models/summary_list.dart';
 
+/// A resource list containing events
 class EventList extends SummaryList<List<EventSummary>> {
+  /// Default Constructor
   EventList();
 
+  /// Convert from JSON
   EventList.fromJson(Map<String, dynamic> json) {
     super.available = json['available'];
     super.returned = json['returned'];

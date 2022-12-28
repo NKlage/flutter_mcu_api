@@ -1,18 +1,41 @@
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
+/// Represents a Marvel Character
 class Character {
+  /// The unique ID of the character resource.
   final int? id;
+
+  /// The name of the character.
   final String? name;
+
+  /// A short bio or description of the character.
   final String? description;
+
+  /// The date the resource was most recently modified.
   final DateTime? modified;
+
+  /// The canonical URL identifier for this resource.
   final String? resourceUri;
+
+  /// A set of public web site URLs for the resource.
   final List<Url>? urls;
+
+  /// The representative image for this character.
   final Image? thumbnail;
+
+  /// A resource list containing comics which feature this character.
   final ComicList? comics;
+
+  /// A resource list of stories in which this character appears.
   final StoryList? stories;
+
+  /// A resource list of events in which this character appears.
   final EventList? events;
+
+  /// A resource list of series in which this character appears.
   final SeriesList? series;
 
+  /// Default Constructor
   Character(
       {this.id,
       this.name,
@@ -26,6 +49,7 @@ class Character {
       this.events,
       this.series});
 
+  /// Convert from JSON
   Character.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         name = json['name'],
@@ -72,6 +96,9 @@ class Character {
 
   @override
   String toString() {
-    return 'Character{id: $id, name: $name, description: $description, modified: $modified, resourceUri: $resourceUri, urls: $urls, thumbnail: $thumbnail, comics: $comics, stories: $stories, events: $events, series: $series}';
+    return 'Character{id: $id, name: $name, description: $description, '
+        'modified: $modified, resourceUri: $resourceUri, urls: $urls, '
+        'thumbnail: $thumbnail, comics: $comics, stories: $stories, '
+        'events: $events, series: $series}';
   }
 }

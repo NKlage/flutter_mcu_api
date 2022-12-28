@@ -1,8 +1,12 @@
 import 'comic_summary.dart';
 import 'summary_list.dart';
 
+/// A resource list containing comics
 class ComicList extends SummaryList<List<ComicSummary>> {
+  /// Default Constructor
   ComicList();
+
+  /// Convert from JSON
   ComicList.fromJson(Map<String, dynamic> json) {
     super.available = json['available'];
     super.returned = json['returned'];

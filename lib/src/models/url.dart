@@ -1,9 +1,15 @@
+/// Represents Website URL's
 class Url {
+  /// A text identifier for the URL.
   final String? type;
+
+  /// A full URL (including scheme, domain, and path).
   final String? url;
 
+  /// Default Constructor
   Url({this.type, this.url});
 
+  /// Convert from JSON
   Url.fromJson(Map<String, dynamic> json)
       : type = json['type'],
         url = json['url'];

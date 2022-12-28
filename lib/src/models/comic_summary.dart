@@ -1,9 +1,15 @@
+/// Represents a ComicSummary
 class ComicSummary {
+  /// The path to the individual comic resource.
   final String? resourceUri;
+
+  /// The canonical name of the comic
   final String? name;
 
+  /// Default Constructor
   ComicSummary({this.resourceUri, this.name});
 
+  /// Convert from JSON
   ComicSummary.fromJson(Map<String, dynamic> json)
       : resourceUri = json['resourceURI'],
         name = json['name'];

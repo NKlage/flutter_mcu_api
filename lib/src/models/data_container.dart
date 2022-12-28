@@ -1,7 +1,16 @@
+/// Represent a generic DataConttainer
 abstract class DataContainer<T> {
+  /// The requested offset (number of skipped results) of the call.
   int? offset;
+
+  /// The requested result limit.
   int? limit;
+
+  /// The total number of resources available given the current filter set.
   int? total;
+
+  // TODO: count field is missing
+  /// The list of characters returned by the call
   T? results;
 
   @override
