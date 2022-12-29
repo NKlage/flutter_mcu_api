@@ -56,7 +56,7 @@ from the package authors, and more.
 
 - [x] get characters 
 - [x] get comics 
-- [ ] get creators 
+- [x] get creators 
 - [ ] get events 
 - [ ] get series 
 - [ ] get stories 

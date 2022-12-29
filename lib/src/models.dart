@@ -7,6 +7,8 @@ export 'models/comic.dart';
 export 'models/comic_container.dart';
 export 'models/comic_list.dart';
 export 'models/comic_summary.dart';
+export 'models/creator.dart';
+export 'models/creator_container.dart';
 export 'models/creator_list.dart';
 export 'models/creator_summary.dart';
 export 'models/date_summary.dart';

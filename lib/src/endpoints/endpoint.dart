@@ -20,7 +20,7 @@ abstract class Endpoint<T extends DataContainer> {
   /// Constructor
   Endpoint(this._apiSegment, this._httpClient, this.fromJson);
 
-  /// Fetches a list of comics or a single character if the optional [id] is specified.
+  /// Fetches a list of resources or a single resource if the optional [id] is specified.
   /// [args] are optional and are added to the HTTP request as queryParamters
   /// See: https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
   Future<ApiResponse<T>> fetch({int? id, Map<String, dynamic>? args}) async {

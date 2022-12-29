@@ -5,9 +5,6 @@ import '../models.dart';
 
 /// Endpoint for the comics of the Marvel API
 class ComicEndpoint extends Endpoint<ComicDataContainer> {
-  /// URL segment for the comics
-  final String apiSegment = '/comics';
-
   /// DIO HttpClient
   final Dio httpClient;
 
