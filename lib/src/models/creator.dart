@@ -1,5 +1,6 @@
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
+/// Represents a Marvel Creator
 class Creator {
   /// The unique ID of the creator resource.
   final int? id;
@@ -76,4 +77,46 @@ class Creator {
         stories = StoryList.fromJson(json['stories']),
         comics = ComicList.fromJson(json['comics']),
         events = EventList.fromJson(json['events']);
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Creator &&
+          runtimeType == other.runtimeType &&
+          id == other.id &&
+          firstName == other.firstName &&
+          middleName == other.middleName &&
+          lastName == other.lastName &&
+          suffix == other.suffix &&
+          fullName == other.fullName &&
+          modified == other.modified &&
+          resourceUri == other.resourceUri &&
+          urls == other.urls &&
+          thumbnail == other.thumbnail &&
+          series == other.series &&
+          stories == other.stories &&
+          comics == other.comics &&
+          events == other.events;
+
+  @override
+  int get hashCode =>
+      id.hashCode ^
+      firstName.hashCode ^
+      middleName.hashCode ^
+      lastName.hashCode ^
+      suffix.hashCode ^
+      fullName.hashCode ^
+      modified.hashCode ^
+      resourceUri.hashCode ^
+      urls.hashCode ^
+      thumbnail.hashCode ^
+      series.hashCode ^
+      stories.hashCode ^
+      comics.hashCode ^
+      events.hashCode;
+
+  @override
+  String toString() {
+    return 'Creator{id: $id, firstName: $firstName, middleName: $middleName, lastName: $lastName, suffix: $suffix, fullName: $fullName, modified: $modified, resourceUri: $resourceUri, urls: $urls, thumbnail: $thumbnail, series: $series, stories: $stories, comics: $comics, events: $events}';
+  }
 }

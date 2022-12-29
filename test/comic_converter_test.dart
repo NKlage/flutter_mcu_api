@@ -152,7 +152,9 @@ class _ExpectedComicObjects {
   static CharacterList get expectedCharacters {
     List<CharacterSummary> items = [
       CharacterSummary(
-          resourceUri: null, name: 'Spider-Man (Peter Parker)', role: null)
+          resourceUri: 'http://gateway.marvel.com/v1/public/characters/1009610',
+          name: 'Spider-Man (Peter Parker)',
+          role: null)
     ];
     return CharacterList()
       ..available = 1

@@ -5,6 +5,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 import 'package:flutter_marvel_api/src/endpoints/creator_endpoint.dart';
 
+import 'endpoints/event_endpoint.dart';
+
 /// Handles the Marvel REST API
 ///
 /// Requires the Marvel private and public keys (https://developer.marvel.com/documentation/getting_started)
@@ -43,6 +45,9 @@ class MarvelApi {
 
   /// Get the Marvel API Creators Endpoint
   CreatorEndpoint get creators => CreatorEndpoint(httpClient!);
+
+  /// Get the Marvel API Events Endpoint
+  EventEndpoint get events => EventEndpoint(httpClient!);
 }
 
 class _DioMarvelApiInterceptor extends Interceptor {

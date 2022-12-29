@@ -14,7 +14,7 @@ class CharacterSummary {
 
   /// Convert from JSON
   CharacterSummary.fromJson(Map<String, dynamic> json)
-      : resourceUri = json['resourceUri'],
+      : resourceUri = json['resourceURI'],
         name = json['name'],
         role = json['role'];
 

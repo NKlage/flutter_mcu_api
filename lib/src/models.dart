@@ -12,6 +12,8 @@ export 'models/creator_container.dart';
 export 'models/creator_list.dart';
 export 'models/creator_summary.dart';
 export 'models/date_summary.dart';
+export 'models/event.dart';
+export 'models/event_container.dart';
 export 'models/event_list.dart';
 export 'models/event_summary.dart';
 export 'models/image.dart';

@@ -165,4 +165,76 @@ class Comic {
         characters = CharacterList.fromJson(json['characters']),
         stories = StoryList.fromJson(json['stories']),
         events = EventList.fromJson(json['events']);
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Comic &&
+          runtimeType == other.runtimeType &&
+          id == other.id &&
+          digitalId == other.digitalId &&
+          title == other.title &&
+          issueNumber == other.issueNumber &&
+          variantDescription == other.variantDescription &&
+          description == other.description &&
+          modified == other.modified &&
+          isbn == other.isbn &&
+          upc == other.upc &&
+          diamondCode == other.diamondCode &&
+          ean == other.ean &&
+          issn == other.issn &&
+          format == other.format &&
+          pageCount == other.pageCount &&
+          textObjects == other.textObjects &&
+          resourceURI == other.resourceURI &&
+          urls == other.urls &&
+          series == other.series &&
+          variants == other.variants &&
+          collections == other.collections &&
+          collectedIssues == other.collectedIssues &&
+          dates == other.dates &&
+          prices == other.prices &&
+          thumbnail == other.thumbnail &&
+          images == other.images &&
+          creators == other.creators &&
+          characters == other.characters &&
+          stories == other.stories &&
+          events == other.events;
+
+  @override
+  int get hashCode =>
+      id.hashCode ^
+      digitalId.hashCode ^
+      title.hashCode ^
+      issueNumber.hashCode ^
+      variantDescription.hashCode ^
+      description.hashCode ^
+      modified.hashCode ^
+      isbn.hashCode ^
+      upc.hashCode ^
+      diamondCode.hashCode ^
+      ean.hashCode ^
+      issn.hashCode ^
+      format.hashCode ^
+      pageCount.hashCode ^
+      textObjects.hashCode ^
+      resourceURI.hashCode ^
+      urls.hashCode ^
+      series.hashCode ^
+      variants.hashCode ^
+      collections.hashCode ^
+      collectedIssues.hashCode ^
+      dates.hashCode ^
+      prices.hashCode ^
+      thumbnail.hashCode ^
+      images.hashCode ^
+      creators.hashCode ^
+      characters.hashCode ^
+      stories.hashCode ^
+      events.hashCode;
+
+  @override
+  String toString() {
+    return 'Comic{id: $id, digitalId: $digitalId, title: $title, issueNumber: $issueNumber, variantDescription: $variantDescription, description: $description, modified: $modified, isbn: $isbn, upc: $upc, diamondCode: $diamondCode, ean: $ean, issn: $issn, format: $format, pageCount: $pageCount, textObjects: $textObjects, resourceURI: $resourceURI, urls: $urls, series: $series, variants: $variants, collections: $collections, collectedIssues: $collectedIssues, dates: $dates, prices: $prices, thumbnail: $thumbnail, images: $images, creators: $creators, characters: $characters, stories: $stories, events: $events}';
+  }
 }
