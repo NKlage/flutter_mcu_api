@@ -1,4 +1,4 @@
-import '../models.dart';
+import '../models.dart' show SummaryList, StorySummary;
 
 /// A resource list containing stories
 class StoryList extends SummaryList<List<StorySummary>> {

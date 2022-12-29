@@ -1,5 +1,4 @@
-import 'package:flutter_marvel_api/src/models/character.dart';
-
+import '../models.dart' show Character;
 import 'data_container.dart';
 
 /// Represents the DataContainer for Marvel Characters

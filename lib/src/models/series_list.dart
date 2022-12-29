@@ -1,5 +1,4 @@
-import 'package:flutter_marvel_api/src/models/series_summary.dart';
-import 'package:flutter_marvel_api/src/models/summary_list.dart';
+import '../models.dart' show SummaryList, SeriesSummary;
 
 /// A resource list containing series
 class SeriesList extends SummaryList<List<SeriesSummary>> {

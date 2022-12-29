@@ -1,5 +1,4 @@
-import 'comic_summary.dart';
-import 'summary_list.dart';
+import '../models.dart' show SummaryList, ComicSummary;
 
 /// A resource list containing comics
 class ComicList extends SummaryList<List<ComicSummary>> {

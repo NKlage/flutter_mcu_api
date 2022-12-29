@@ -1,4 +1,5 @@
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import '../models.dart'
+    show Url, Image, ComicList, StoryList, EventList, SeriesList;
 
 /// Represents a Marvel Character
 class Character {

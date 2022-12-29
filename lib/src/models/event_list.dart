@@ -1,5 +1,4 @@
-import 'package:flutter_marvel_api/src/models/event_summary.dart';
-import 'package:flutter_marvel_api/src/models/summary_list.dart';
+import '../models.dart' show SummaryList, EventSummary;
 
 /// A resource list containing events
 class EventList extends SummaryList<List<EventSummary>> {

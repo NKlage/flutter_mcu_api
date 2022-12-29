@@ -1,4 +1,4 @@
-import '../models.dart';
+import '../models.dart' show SummaryList, CreatorSummary;
 
 /// A resource list containing creators
 class CreatorList extends SummaryList<List<CreatorSummary>> {
