@@ -1,5 +1,4 @@
-import '../../flutter_marvel_api.dart';
-import 'summary_list.dart';
+import '../models.dart';
 
 /// A resource list containing stories
 class StoryList extends SummaryList<List<StorySummary>> {

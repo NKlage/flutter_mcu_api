@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import 'package:flutter_marvel_api/src/endpoints/comic_endpoint.dart';
 
 /// Handles the Marvel REST API
 ///
@@ -35,7 +36,10 @@ class MarvelApi {
   }
 
   /// Get the Marvel API Character Endpoint and fetch characters
-  CharacterEndpoint get character => CharacterEndpoint(httpClient!);
+  CharacterEndpoint get characters => CharacterEndpoint(httpClient!);
+
+  /// Get the Marvel API Comic Endpoint and fetch characters
+  ComicEndpoint get comics => ComicEndpoint(httpClient!);
 }
 
 class _DioMarvelApiInterceptor extends Interceptor {

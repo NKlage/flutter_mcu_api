@@ -5,6 +5,8 @@ class ApiResponses {
 
   static const String characterList = '$_jsonRootFolder/character-list.json';
 
+  static const String comicList = '$_jsonRootFolder/comic-list.json';
+
   static Future<String> jsonResponse(String responseFile) async {
     final file = File(responseFile);
     return await file.readAsString();

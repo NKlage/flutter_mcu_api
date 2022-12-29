@@ -29,23 +29,23 @@ void main() {
         httpClient: dio);
   });
 
-  test('get character list should return 200', () async {
+  test('get comic list should return 200', () async {
     final expectedResponse =
-        await ApiResponses.jsonResponse(ApiResponses.characterList);
+        await ApiResponses.jsonResponse(ApiResponses.comicList);
 
-    dioAdapter.onGet('/characters', (server) {
+    dioAdapter.onGet('/comics', (server) {
       server.reply(HttpStatus.ok, expectedResponse);
     }, queryParameters: defaultApiQueryParameters);
 
-    final ApiResponse<CharacterDataContainer> apiResponse =
-        await marvelApi.characters.fetch();
+    final ApiResponse<ComicDataContainer> apiResponse =
+        await marvelApi.comics.fetch();
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
     expect(apiResponse.data, isNotNull);
-    expect(apiResponse.data, isA<CharacterDataContainer>());
+    expect(apiResponse.data, isA<ComicDataContainer>());
     expect(apiResponse.data?.results, isNotNull);
-    expect(apiResponse.data?.results, isA<List<Character>>());
+    expect(apiResponse.data?.results, isA<List<Comic>>());
     expect(apiResponse.data?.results?.length, 20);
   });
 }
