@@ -29,7 +29,21 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+    MarvelApi api = MarvelApi(
+        publicApiKey: 'YOUR PUBLIC API KEY',
+        privateApiKey: 'YOUR PRIVATE API KEY'
+    );
+    ...
+
+    // get all Characters
+    final ApiResponse<CharacterDataContainer> response = await api.characters.fetch();
+    
+    // get list with args
+    final ApiResponse<CharacterDataContainer> response = await api.characters.fetch(args: { 'offset': 20 });
+
+    // get specific Characters
+    final ApiResponse<CharacterDataContainer> response = await api.characters.fetch(id: 4711);
+
 ```
 
 ## Additional information
@@ -37,3 +51,14 @@ const like = 'sample';
 TODO: Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
 from the package authors, and more.
+
+## TODO
+
+- [x] get characters 
+- [x] get comics 
+- [ ] get creators 
+- [ ] get events 
+- [ ] get series 
+- [ ] get stories 
+- [ ] complete this readme
+- [ ] add example
