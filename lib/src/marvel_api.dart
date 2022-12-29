@@ -3,9 +3,6 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
-import 'package:flutter_marvel_api/src/endpoints/creator_endpoint.dart';
-
-import 'endpoints/event_endpoint.dart';
 
 /// Handles the Marvel REST API
 ///
@@ -48,6 +45,9 @@ class MarvelApi {
 
   /// Get the Marvel API Events Endpoint
   EventEndpoint get events => EventEndpoint(httpClient!);
+
+  /// Get the Marvel API Series Endpoint
+  SeriesEndpoint get series => SeriesEndpoint(httpClient!);
 }
 
 class _DioMarvelApiInterceptor extends Interceptor {

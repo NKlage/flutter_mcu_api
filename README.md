@@ -58,7 +58,7 @@ from the package authors, and more.
 - [x] get comics 
 - [x] get creators 
 - [x] get events 
-- [ ] get series 
+- [x] get series 
 - [ ] get stories 
-- [ ] complete this readme
 - [ ] add example
+- [ ] complete this readme

@@ -18,6 +18,8 @@ export 'models/event_list.dart';
 export 'models/event_summary.dart';
 export 'models/image.dart';
 export 'models/price_summary.dart';
+export 'models/serie.dart';
+export 'models/series_container.dart';
 export 'models/series_list.dart';
 export 'models/series_summary.dart';
 export 'models/story_list.dart';
