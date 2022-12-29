@@ -7,6 +7,7 @@ class ComicDataContainer extends DataContainer<List<Comic>?> {
   ComicDataContainer();
 
   /// Convert from JSON
+  @override
   ComicDataContainer.fromJson(Map<String, dynamic> json) {
     super.offset = json['offset'];
     super.limit = json['limit'];
