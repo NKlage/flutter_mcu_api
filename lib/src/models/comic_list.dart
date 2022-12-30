@@ -10,7 +10,9 @@ class ComicList extends SummaryList<List<ComicSummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<ComicSummary>.from(
-        json['items'].map((model) => ComicSummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<ComicSummary>.from(
+            json['items'].map((model) => ComicSummary.fromJson(model)));
   }
 }

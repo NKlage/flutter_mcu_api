@@ -10,7 +10,9 @@ class CharacterList extends SummaryList<List<CharacterSummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<CharacterSummary>.from(
-        json['items'].map((model) => CharacterSummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<CharacterSummary>.from(
+            json['items'].map((model) => CharacterSummary.fromJson(model)));
   }
 }

@@ -69,14 +69,25 @@ class Creator {
         lastName = json['lastName'],
         suffix = json['suffix'],
         fullName = json['fullName'],
-        modified = DateTime.tryParse(json['modified']),
+        modified = null == json['modified']
+            ? null
+            : DateTime.tryParse(json['modified']),
         resourceUri = json['resourceURI'],
-        urls = List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
-        thumbnail = Image.fromJson(json['thumbnail']),
-        series = SeriesList.fromJson(json['series']),
-        stories = StoryList.fromJson(json['stories']),
-        comics = ComicList.fromJson(json['comics']),
-        events = EventList.fromJson(json['events']);
+        urls = null == json['urls']
+            ? null
+            : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
+        thumbnail = null == json['thumbnail']
+            ? null
+            : Image.fromJson(json['thumbnail']),
+        series =
+            null == json['series'] ? null : SeriesList.fromJson(json['series']),
+        stories = null == json['stories']
+            ? null
+            : StoryList.fromJson(json['stories']),
+        comics =
+            null == json['comics'] ? null : ComicList.fromJson(json['comics']),
+        events =
+            null == json['events'] ? null : EventList.fromJson(json['events']);
 
   @override
   bool operator ==(Object other) =>

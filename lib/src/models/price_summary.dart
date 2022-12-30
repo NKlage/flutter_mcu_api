@@ -12,7 +12,9 @@ class PriceSummary {
   /// Convert from JSON
   PriceSummary.fromJson(Map<String, dynamic> json)
       : type = json['type'],
-        price = double.tryParse(json['price'].toString());
+        price = null == json['price']
+            ? null
+            : double.tryParse(json['price'].toString());
 
   @override
   bool operator ==(Object other) =>

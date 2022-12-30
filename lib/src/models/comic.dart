@@ -132,10 +132,14 @@ class Comic {
       : id = json['id'],
         digitalId = json['digitalId'],
         title = json['title'],
-        issueNumber = double.tryParse(json['issueNumber'].toString()),
+        issueNumber = null == json['issueNumber']
+            ? null
+            : double.tryParse(json['issueNumber'].toString()),
         variantDescription = json['variantDescription'],
         description = json['description'],
-        modified = DateTime.tryParse(json['modified']),
+        modified = null == json['modified']
+            ? null
+            : DateTime.tryParse(json['modified']),
         isbn = json['isbn'],
         upc = json['upc'],
         diamondCode = json['diamondCode'],
@@ -143,28 +147,55 @@ class Comic {
         issn = json['issn'],
         format = json['format'],
         pageCount = json['pageCount'],
-        textObjects = List<TextObject>.from(
-            json['textObjects'].map((model) => TextObject.fromJson(model))),
+        textObjects = null == json['textObjects']
+            ? null
+            : List<TextObject>.from(
+                json['textObjects'].map((model) => TextObject.fromJson(model))),
         resourceURI = json['resourceURI'],
-        urls = List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
-        series = SeriesSummary.fromJson(json['series']),
-        variants = List<ComicSummary>.from(
-            json['variants'].map((model) => ComicSummary.fromJson(model))),
-        collections = List<ComicSummary>.from(
-            json['collections'].map((model) => ComicSummary.fromJson(model))),
-        collectedIssues = List<ComicSummary>.from(json['collectedIssues']
-            .map((model) => ComicSummary.fromJson(model))),
-        dates = List<DateSummary>.from(
-            json['dates'].map((model) => DateSummary.fromJson(model))),
-        prices = List<PriceSummary>.from(
-            json['prices'].map((model) => PriceSummary.fromJson(model))),
-        thumbnail = Image.fromJson(json['thumbnail']),
-        images = List<Image>.from(
-            json['images'].map((model) => Image.fromJson(model))),
-        creators = CreatorList.fromJson(json['creators']),
-        characters = CharacterList.fromJson(json['characters']),
-        stories = StoryList.fromJson(json['stories']),
-        events = EventList.fromJson(json['events']);
+        urls = null == json['urls']
+            ? null
+            : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
+        series = null == json['series']
+            ? null
+            : SeriesSummary.fromJson(json['series']),
+        variants = null == json['variants']
+            ? null
+            : List<ComicSummary>.from(
+                json['variants'].map((model) => ComicSummary.fromJson(model))),
+        collections = null == json['collections']
+            ? null
+            : List<ComicSummary>.from(json['collections']
+                .map((model) => ComicSummary.fromJson(model))),
+        collectedIssues = null == json['collectedIssues']
+            ? null
+            : List<ComicSummary>.from(json['collectedIssues']
+                .map((model) => ComicSummary.fromJson(model))),
+        dates = null == json['dates']
+            ? null
+            : List<DateSummary>.from(
+                json['dates'].map((model) => DateSummary.fromJson(model))),
+        prices = null == json['prices']
+            ? null
+            : List<PriceSummary>.from(
+                json['prices'].map((model) => PriceSummary.fromJson(model))),
+        thumbnail = null == json['thumbnail']
+            ? null
+            : Image.fromJson(json['thumbnail']),
+        images = null == json['images']
+            ? null
+            : List<Image>.from(
+                json['images'].map((model) => Image.fromJson(model))),
+        creators = null == json['creators']
+            ? null
+            : CreatorList.fromJson(json['creators']),
+        characters = null == json['characters']
+            ? null
+            : CharacterList.fromJson(json['characters']),
+        stories = null == json['stories']
+            ? null
+            : StoryList.fromJson(json['stories']),
+        events =
+            null == json['events'] ? null : EventList.fromJson(json['events']);
 
   @override
   bool operator ==(Object other) =>

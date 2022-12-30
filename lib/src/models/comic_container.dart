@@ -13,7 +13,9 @@ class ComicDataContainer extends DataContainer<List<Comic>?> {
     super.limit = json['limit'];
     super.total = json['total'];
     super.count = json['count'];
-    super.results =
-        List<Comic>.from(json['results'].map((model) => Comic.fromJson(model)));
+    super.results = null == json['results']
+        ? null
+        : List<Comic>.from(
+            json['results'].map((model) => Comic.fromJson(model)));
   }
 }

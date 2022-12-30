@@ -12,8 +12,10 @@ class CharacterDataContainer extends DataContainer<List<Character>?> {
     super.offset = json['offset'];
     super.total = json['total'];
     super.count = json['count'];
-    super.results = List<Character>.from(
-        json['results'].map((model) => Character.fromJson(model)));
+    super.results = null == json['results']
+        ? null
+        : List<Character>.from(
+            json['results'].map((model) => Character.fromJson(model)));
   }
 
   @override

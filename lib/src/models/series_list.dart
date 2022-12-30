@@ -10,7 +10,9 @@ class SeriesList extends SummaryList<List<SeriesSummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<SeriesSummary>.from(
-        json['items'].map((model) => SeriesSummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<SeriesSummary>.from(
+            json['items'].map((model) => SeriesSummary.fromJson(model)));
   }
 }

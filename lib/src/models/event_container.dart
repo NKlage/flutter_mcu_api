@@ -12,7 +12,9 @@ class EventDataContainer extends DataContainer<List<Event>?> {
     super.offset = json['offset'];
     super.total = json['total'];
     super.count = json['count'];
-    super.results =
-        List<Event>.from(json['results'].map((model) => Event.fromJson(model)));
+    super.results = null == json['results']
+        ? null
+        : List<Event>.from(
+            json['results'].map((model) => Event.fromJson(model)));
   }
 }

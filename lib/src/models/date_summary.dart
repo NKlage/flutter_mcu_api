@@ -12,7 +12,7 @@ class DateSummary {
   /// Convert from JSON
   DateSummary.fromJson(Map<String, dynamic> json)
       : type = json['type'],
-        date = DateTime.tryParse(json['date']);
+        date = null == json['date'] ? null : DateTime.tryParse(json['date']);
 
   @override
   bool operator ==(Object other) =>

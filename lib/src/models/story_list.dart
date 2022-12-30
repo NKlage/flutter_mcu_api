@@ -10,7 +10,9 @@ class StoryList extends SummaryList<List<StorySummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<StorySummary>.from(
-        json['items'].map((model) => StorySummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<StorySummary>.from(
+            json['items'].map((model) => StorySummary.fromJson(model)));
   }
 }

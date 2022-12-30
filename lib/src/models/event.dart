@@ -15,7 +15,7 @@ class Event {
   final String? resourceUri;
 
   /// A set of public web site URLs for the event.
-  final List<Url> urls;
+  final List<Url>? urls;
 
   /// The date the resource was most recently modified.
   final DateTime? modified;
@@ -75,18 +75,30 @@ class Event {
         title = json['title'],
         description = json['description'],
         resourceUri = json['resourceURI'],
-        urls = List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
+        urls = null == json['urls']
+            ? null
+            : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
         modified = null == json['modified']
             ? null
             : DateTime.tryParse(json['modified']),
         start = null == json['start'] ? null : DateTime.tryParse(json['start']),
         end = null == json['end'] ? null : DateTime.tryParse(json['end']),
-        thumbnail = Image.fromJson(json['thumbnail']),
-        comics = ComicList.fromJson(json['comics']),
-        stories = StoryList.fromJson(json['stories']),
-        series = SeriesList.fromJson(json['series']),
-        characters = CharacterList.fromJson(json['characters']),
-        creators = CreatorList.fromJson(json['creators']),
+        thumbnail = null == json['thumbnail']
+            ? null
+            : Image.fromJson(json['thumbnail']),
+        comics =
+            null == json['comics'] ? null : ComicList.fromJson(json['comics']),
+        stories = null == json['stories']
+            ? null
+            : StoryList.fromJson(json['stories']),
+        series =
+            null == json['series'] ? null : SeriesList.fromJson(json['series']),
+        characters = null == json['characters']
+            ? null
+            : CharacterList.fromJson(json['characters']),
+        creators = null == json['creators']
+            ? null
+            : CreatorList.fromJson(json['creators']),
         next =
             null == json['next'] ? null : EventSummary.fromJson(json['next']),
         previous = null == json['previous']

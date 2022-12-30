@@ -55,14 +55,26 @@ class Character {
       : id = json['id'],
         name = json['name'],
         description = json['description'],
-        modified = DateTime.tryParse(json['modified']),
+        modified = null == json['modified']
+            ? null
+            : DateTime.tryParse(json['modified']),
         resourceUri = json['resourceURI'],
-        urls = List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
-        thumbnail = Image.fromJson(json['thumbnail']),
-        comics = ComicList.fromJson(json['comics']),
-        stories = StoryList.fromJson(json['stories']),
-        events = EventList.fromJson(json['stories']),
-        series = SeriesList.fromJson(json['series']);
+        urls = null == json['urls']
+            ? null
+            : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
+        thumbnail = null == json['thumbnail']
+            ? null
+            : Image.fromJson(json['thumbnail']),
+        comics =
+            null == json['comics'] ? null : ComicList.fromJson(json['comics']),
+        stories = null == json['stories']
+            ? null
+            : StoryList.fromJson(json['stories']),
+        events = null == json['stories']
+            ? null
+            : EventList.fromJson(json['stories']),
+        series =
+            null == json['series'] ? null : SeriesList.fromJson(json['series']);
 
   @override
   bool operator ==(Object other) =>

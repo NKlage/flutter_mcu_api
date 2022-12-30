@@ -83,7 +83,9 @@ class Serie {
         title = json['title'],
         description = json['description'],
         resourceUri = json['resourceURI'],
-        urls = List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
+        urls = null == json['urls']
+            ? null
+            : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
         startYear = json['startYear'],
         endYear = json['endYear'],
         rating = json['rating'],

@@ -10,7 +10,9 @@ class EventList extends SummaryList<List<EventSummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<EventSummary>.from(
-        json['items'].map((model) => EventSummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<EventSummary>.from(
+            json['items'].map((model) => EventSummary.fromJson(model)));
   }
 }

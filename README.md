@@ -61,4 +61,7 @@ from the package authors, and more.
 - [x] get series 
 - [ ] get stories 
 - [ ] add example
+- [ ] check for null in fromJson methods
 - [ ] complete this readme
+- [ ] changelog for release
+- [ ] add license

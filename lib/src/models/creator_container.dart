@@ -13,7 +13,9 @@ class CreatorDataContainer extends DataContainer<List<Creator>> {
     super.offset = json['offset'];
     super.total = json['total'];
     super.count = json['count'];
-    super.results = List<Creator>.from(
-        json['results'].map((model) => Creator.fromJson(model)));
+    super.results = null == json['results']
+        ? null
+        : List<Creator>.from(
+            json['results'].map((model) => Creator.fromJson(model)));
   }
 }

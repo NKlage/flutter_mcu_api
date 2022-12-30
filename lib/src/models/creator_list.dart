@@ -10,7 +10,9 @@ class CreatorList extends SummaryList<List<CreatorSummary>> {
     super.available = json['available'];
     super.returned = json['returned'];
     super.collectionUri = json['collectionURI'];
-    super.items = List<CreatorSummary>.from(
-        json['items'].map((model) => CreatorSummary.fromJson(model)));
+    super.items = null == json['items']
+        ? null
+        : List<CreatorSummary>.from(
+            json['items'].map((model) => CreatorSummary.fromJson(model)));
   }
 }
