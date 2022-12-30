@@ -7,9 +7,9 @@ import 'api_responses/api_responses.dart';
 
 void main() {
   test('should convert series response', () async {
-    final creatorResponseBody =
+    final seriesResponseBody =
         await ApiResponses.jsonResponse(ApiResponses.seriesList);
-    final Map<String, dynamic> result = jsonDecode(creatorResponseBody);
+    final Map<String, dynamic> result = jsonDecode(seriesResponseBody);
     const seriesIdToTest = 31445;
 
     expect(result.containsKey('data'), true);
@@ -18,29 +18,27 @@ void main() {
         SeriesDataContainer.fromJson(result['data']);
 
     final List<Serie> seriesList = seriesDataContainer.results!;
-    final seriesCreator =
-        seriesList.firstWhere((creator) => creator.id == seriesIdToTest);
+    final series = seriesList.firstWhere((serie) => serie.id == seriesIdToTest);
 
-    expect(seriesCreator.id, seriesIdToTest);
-    expect(seriesCreator.title, ' Fantastic Four by Dan Slott Vol. 1 (2021)');
-    expect(seriesCreator.description, null);
-    expect(seriesCreator.resourceUri,
-        'http://gateway.marvel.com/v1/public/series/31445');
-    expect(seriesCreator.urls, _ExpectedSeriesObjects.expectedUrls);
-    expect(seriesCreator.startYear, 2021);
-    expect(seriesCreator.endYear, 2021);
-    expect(seriesCreator.rating, '');
-    expect(seriesCreator.type, 'collection');
+    expect(series.id, seriesIdToTest);
+    expect(series.title, ' Fantastic Four by Dan Slott Vol. 1 (2021)');
+    expect(series.description, null);
     expect(
-        seriesCreator.modified, DateTime.tryParse('2020-07-29T09:04:18-0400'));
-    expect(seriesCreator.thumbnail, _ExpectedSeriesObjects.expectedImage);
-    expect(seriesCreator.comics, _ExpectedSeriesObjects.expectedComics);
-    expect(seriesCreator.stories, _ExpectedSeriesObjects.expectedStories);
-    expect(seriesCreator.events, _ExpectedSeriesObjects.expectedEvents);
-    expect(seriesCreator.characters, _ExpectedSeriesObjects.expectedCharacters);
-    expect(seriesCreator.creators, _ExpectedSeriesObjects.expectedCreators);
-    expect(seriesCreator.next, null);
-    expect(seriesCreator.previous, null);
+        series.resourceUri, 'http://gateway.marvel.com/v1/public/series/31445');
+    expect(series.urls, _ExpectedSeriesObjects.expectedUrls);
+    expect(series.startYear, 2021);
+    expect(series.endYear, 2021);
+    expect(series.rating, '');
+    expect(series.type, 'collection');
+    expect(series.modified, DateTime.tryParse('2020-07-29T09:04:18-0400'));
+    expect(series.thumbnail, _ExpectedSeriesObjects.expectedImage);
+    expect(series.comics, _ExpectedSeriesObjects.expectedComics);
+    expect(series.stories, _ExpectedSeriesObjects.expectedStories);
+    expect(series.events, _ExpectedSeriesObjects.expectedEvents);
+    expect(series.characters, _ExpectedSeriesObjects.expectedCharacters);
+    expect(series.creators, _ExpectedSeriesObjects.expectedCreators);
+    expect(series.next, null);
+    expect(series.previous, null);
   });
 }
 
