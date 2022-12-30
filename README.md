@@ -59,9 +59,9 @@ from the package authors, and more.
 - [x] get creators 
 - [x] get events 
 - [x] get series 
-- [ ] get stories 
+- [x] get stories 
 - [ ] add example
-- [ ] check for null in fromJson methods
+- [x] check for null in fromJson methods
 - [ ] complete this readme
 - [ ] changelog for release
 - [ ] add license

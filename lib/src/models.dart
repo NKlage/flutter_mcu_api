@@ -22,6 +22,8 @@ export 'models/serie.dart';
 export 'models/series_container.dart';
 export 'models/series_list.dart';
 export 'models/series_summary.dart';
+export 'models/story.dart';
+export 'models/story_container.dart';
 export 'models/story_list.dart';
 export 'models/story_summary.dart';
 export 'models/summary_list.dart';

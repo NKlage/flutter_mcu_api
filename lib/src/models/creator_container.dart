@@ -1,6 +1,5 @@
-import 'package:flutter_marvel_api/src/models/data_container.dart';
-
 import '../models.dart' show Creator;
+import 'data_container.dart';
 
 /// Represents the DataContainer for Marvel Creators
 class CreatorDataContainer extends DataContainer<List<Creator>> {

@@ -1,6 +1,5 @@
-import 'package:flutter_marvel_api/src/models/data_container.dart';
-
 import '../models.dart' show Serie;
+import 'data_container.dart';
 
 /// Represents the DataContainer for Marvel Series
 class SeriesDataContainer extends DataContainer<List<Serie>?> {
