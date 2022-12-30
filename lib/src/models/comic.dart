@@ -78,10 +78,10 @@ class Comic {
   final List<PriceSummary>? prices;
 
   /// The representative image for this comic.
-  final Image? thumbnail;
+  final ImageSummary? thumbnail;
 
   /// A list of promotional images associated with this comic.
-  final List<Image>? images;
+  final List<ImageSummary>? images;
 
   /// A resource list containing the creators associated with this comic.
   final CreatorList? creators;
@@ -180,11 +180,11 @@ class Comic {
                 json['prices'].map((model) => PriceSummary.fromJson(model))),
         thumbnail = null == json['thumbnail']
             ? null
-            : Image.fromJson(json['thumbnail']),
+            : ImageSummary.fromJson(json['thumbnail']),
         images = null == json['images']
             ? null
-            : List<Image>.from(
-                json['images'].map((model) => Image.fromJson(model))),
+            : List<ImageSummary>.from(
+                json['images'].map((model) => ImageSummary.fromJson(model))),
         creators = null == json['creators']
             ? null
             : CreatorList.fromJson(json['creators']),

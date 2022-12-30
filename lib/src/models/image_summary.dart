@@ -1,5 +1,5 @@
 /// Represents a Image
-class Image {
+class ImageSummary {
   /// The directory path of to the image.
   String? path;
 
@@ -7,17 +7,17 @@ class Image {
   String? extension;
 
   /// Default Constructor
-  Image({this.path, this.extension});
+  ImageSummary({this.path, this.extension});
 
   /// Convert from JSON
-  Image.fromJson(Map<String, dynamic> json)
+  ImageSummary.fromJson(Map<String, dynamic> json)
       : path = json['path'],
         extension = json['extension'];
 
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      other is Image &&
+      other is ImageSummary &&
           runtimeType == other.runtimeType &&
           path == other.path &&
           extension == other.extension;

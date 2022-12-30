@@ -1,5 +1,5 @@
 import '../models.dart'
-    show Url, Image, ComicList, StoryList, EventList, SeriesList;
+    show Url, ImageSummary, ComicList, StoryList, EventList, SeriesList;
 
 /// Represents a Marvel Character
 class Character {
@@ -22,7 +22,7 @@ class Character {
   final List<Url>? urls;
 
   /// The representative image for this character.
-  final Image? thumbnail;
+  final ImageSummary? thumbnail;
 
   /// A resource list containing comics which feature this character.
   final ComicList? comics;
@@ -64,7 +64,7 @@ class Character {
             : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
         thumbnail = null == json['thumbnail']
             ? null
-            : Image.fromJson(json['thumbnail']),
+            : ImageSummary.fromJson(json['thumbnail']),
         comics =
             null == json['comics'] ? null : ComicList.fromJson(json['comics']),
         stories = null == json['stories']

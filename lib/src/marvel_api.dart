@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
-import 'package:flutter_marvel_api/src/endpoints/stories_endpoint.dart';
 
 /// Handles the Marvel REST API
 ///

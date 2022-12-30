@@ -27,7 +27,7 @@ class Event {
   final DateTime? end;
 
   /// The representative image for this event.
-  final Image? thumbnail;
+  final ImageSummary? thumbnail;
 
   /// A resource list containing the comics in this event.
   final ComicList? comics;
@@ -85,7 +85,7 @@ class Event {
         end = null == json['end'] ? null : DateTime.tryParse(json['end']),
         thumbnail = null == json['thumbnail']
             ? null
-            : Image.fromJson(json['thumbnail']),
+            : ImageSummary.fromJson(json['thumbnail']),
         comics =
             null == json['comics'] ? null : ComicList.fromJson(json['comics']),
         stories = null == json['stories']

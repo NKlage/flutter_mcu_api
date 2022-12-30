@@ -30,7 +30,7 @@ class Creator {
   final List<Url>? urls;
 
   /// The representative image for this creator.
-  final Image? thumbnail;
+  final ImageSummary? thumbnail;
 
   /// A resource list containing the series which feature work by this creator.
   final SeriesList? series;
@@ -78,7 +78,7 @@ class Creator {
             : List<Url>.from(json['urls'].map((model) => Url.fromJson(model))),
         thumbnail = null == json['thumbnail']
             ? null
-            : Image.fromJson(json['thumbnail']),
+            : ImageSummary.fromJson(json['thumbnail']),
         series =
             null == json['series'] ? null : SeriesList.fromJson(json['series']),
         stories = null == json['stories']

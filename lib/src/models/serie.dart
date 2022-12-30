@@ -33,7 +33,7 @@ class Serie {
   final DateTime? modified;
 
   /// The representative image for this series.
-  final Image? thumbnail;
+  final ImageSummary? thumbnail;
 
   /// A resource list containing comics in this series.
   final ComicList? comics;
@@ -95,7 +95,7 @@ class Serie {
             : DateTime.tryParse(json['modified']),
         thumbnail = null == json['thumbnail']
             ? null
-            : Image.fromJson(json['thumbnail']),
+            : ImageSummary.fromJson(json['thumbnail']),
         comics =
             null == json['comics'] ? null : ComicList.fromJson(json['comics']),
         stories = null == json['stories']
