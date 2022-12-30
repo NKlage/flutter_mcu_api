@@ -54,7 +54,7 @@ class _ExpectedCharacterObjects {
                 'http://marvel.com/comics/characters/1011334/3-d_man?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a'),
       ];
 
-  static Image get expectedImage => Image(
+  static ImageSummary get expectedImage => ImageSummary(
       path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784',
       extension: 'jpg');
 

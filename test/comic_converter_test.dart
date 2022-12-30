@@ -121,15 +121,15 @@ class _ExpectedComicObjects {
         PriceSummary(type: 'printPrice', price: 0),
       ];
 
-  static Image get expectedThumbnail => Image(
+  static ImageSummary get expectedThumbnail => ImageSummary(
       path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
       extension: 'jpg');
 
-  static List<Image> get expectedImages => [
-        Image(
+  static List<ImageSummary> get expectedImages => [
+        ImageSummary(
             path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/c0/51dda501724ed',
             extension: 'jpg'),
-        Image(
+        ImageSummary(
             path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/d0/4bb67e65e44df',
             extension: 'jpg'),
       ];

@@ -49,7 +49,7 @@ class _ExpectedCreatorObjects {
                 'http://marvel.com/comics/creators/13970/o?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a')
       ];
 
-  static Image get expectedImage => Image(
+  static ImageSummary get expectedImage => ImageSummary(
       path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
       extension: 'jpg');
 

@@ -56,7 +56,7 @@ class _ExpectedEventObjects {
                 'http://marvel.com/universe/Acts_of_Vengeance!?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a')
       ];
 
-  static Image get expectedImage => Image(
+  static ImageSummary get expectedImage => ImageSummary(
       path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/40/51ca10d996b8b',
       extension: 'jpg');
 
