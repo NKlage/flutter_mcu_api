@@ -3,39 +3,40 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
-class CharacterPage extends StatefulWidget {
+class CreatorPage extends StatefulWidget {
   final MarvelApi marvelApi;
-  const CharacterPage({Key? key, required this.marvelApi}) : super(key: key);
+  const CreatorPage({Key? key, required this.marvelApi}) : super(key: key);
 
   @override
-  State<CharacterPage> createState() => _CharacterPageState();
+  State<CreatorPage> createState() => _CreatorPageState();
 }
 
-class _CharacterPageState extends State<CharacterPage> {
+class _CreatorPageState extends State<CreatorPage> {
   int offset = 0;
   int limit = 10;
 
-  _CharacterPageState();
+  _CreatorPageState();
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
       // add queryParams to request
       // see api documentation to find params-> https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
-      future: widget.marvelApi.characters.fetch(args: {
+      future: widget.marvelApi.creators.fetch(args: {
         'orderBy': '-modified',
         'limit': limit,
         'offset': offset,
       }),
       builder: (BuildContext ctx,
-          AsyncSnapshot<ApiResponse<CharacterDataContainer>> snapshot) {
+          AsyncSnapshot<ApiResponse<CreatorDataContainer>> snapshot) {
         if (ConnectionState.done == snapshot.connectionState) {
           if (snapshot.hasError) {
             return const Center(
               child: Text('Upsi'),
             );
           }
-          return _characterGrid(context, snapshot.requireData);
+          // return Text('TEST');
+          return _creatorGrid(context, snapshot.requireData);
         } else {
           return const Center(
             child: CircularProgressIndicator.adaptive(),
@@ -45,27 +46,25 @@ class _CharacterPageState extends State<CharacterPage> {
     );
   }
 
-  Widget _characterGrid(
+  Widget _creatorGrid(
     BuildContext context,
-    ApiResponse<CharacterDataContainer> characterContainer,
+    ApiResponse<CreatorDataContainer> creatorContainer,
   ) {
-    List<Character> characters = [];
+    List<Creator> creators = [];
 
-    if (HttpStatus.unauthorized == characterContainer.code) {
+    if (HttpStatus.unauthorized == creatorContainer.code) {
       return const Center(
         child: Text('Unauthorized: Check your API Keys!'),
       );
     }
 
-    if (null != characterContainer.data?.results) {
-      characters = characterContainer.data!.results!;
+    if (null != creatorContainer.data?.results) {
+      creators = creatorContainer.data!.results!;
     }
 
     List<Widget> gridItems =
-        characters.map((value) => _characterCard(value)).toList();
-
+        creators.map((value) => _creatorCard(value)).toList();
     TextTheme textTheme = Theme.of(context).textTheme;
-
     return Scaffold(
       floatingActionButton: ElevatedButton(
         onPressed: () {
@@ -83,11 +82,11 @@ class _CharacterPageState extends State<CharacterPage> {
           child: Column(
             children: [
               Text(
-                'Characters',
+                'Creators',
                 style: textTheme.headlineSmall,
               ),
               Text(
-                characterContainer.attributionText ?? '',
+                creatorContainer.attributionText ?? '',
                 style: textTheme.caption,
               ),
               Expanded(
@@ -110,18 +109,18 @@ class _CharacterPageState extends State<CharacterPage> {
     );
   }
 
-  Card _characterCard(Character character) {
+  Card _creatorCard(Creator creator) {
     return Card(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          if (null != character.thumbnail?.path)
+          if (null != creator.thumbnail?.path)
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.network(
                 // get the standard large image
                 // see https://developer.marvel.com/documentation/images
-                '${character.thumbnail?.path!}/standard_large.${character.thumbnail?.extension!}',
+                '${creator.thumbnail?.path!}/standard_large.${creator.thumbnail?.extension!}',
                 width: 140,
                 height: 140,
               ),
@@ -130,7 +129,7 @@ class _CharacterPageState extends State<CharacterPage> {
             height: 8,
           ),
           Text(
-            character.name ?? 'unknown',
+            creator.fullName ?? 'unknown',
             textAlign: TextAlign.center,
           ),
         ],

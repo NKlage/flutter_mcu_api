@@ -3,39 +3,40 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
-class CharacterPage extends StatefulWidget {
+class StoriesPage extends StatefulWidget {
   final MarvelApi marvelApi;
-  const CharacterPage({Key? key, required this.marvelApi}) : super(key: key);
+  const StoriesPage({Key? key, required this.marvelApi}) : super(key: key);
 
   @override
-  State<CharacterPage> createState() => _CharacterPageState();
+  State<StoriesPage> createState() => _StoriesPageState();
 }
 
-class _CharacterPageState extends State<CharacterPage> {
+class _StoriesPageState extends State<StoriesPage> {
   int offset = 0;
   int limit = 10;
 
-  _CharacterPageState();
+  _StoriesPageState();
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
       // add queryParams to request
       // see api documentation to find params-> https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
-      future: widget.marvelApi.characters.fetch(args: {
+      future: widget.marvelApi.stories.fetch(args: {
         'orderBy': '-modified',
         'limit': limit,
         'offset': offset,
       }),
       builder: (BuildContext ctx,
-          AsyncSnapshot<ApiResponse<CharacterDataContainer>> snapshot) {
+          AsyncSnapshot<ApiResponse<StoryDataContainer>> snapshot) {
         if (ConnectionState.done == snapshot.connectionState) {
           if (snapshot.hasError) {
             return const Center(
               child: Text('Upsi'),
             );
           }
-          return _characterGrid(context, snapshot.requireData);
+          // return Text('TEST');
+          return _storiesGrid(context, snapshot.requireData);
         } else {
           return const Center(
             child: CircularProgressIndicator.adaptive(),
@@ -45,27 +46,26 @@ class _CharacterPageState extends State<CharacterPage> {
     );
   }
 
-  Widget _characterGrid(
+  Widget _storiesGrid(
     BuildContext context,
-    ApiResponse<CharacterDataContainer> characterContainer,
+    ApiResponse<StoryDataContainer> storiesContainer,
   ) {
-    List<Character> characters = [];
+    List<Story> stories = [];
 
-    if (HttpStatus.unauthorized == characterContainer.code) {
+    if (HttpStatus.unauthorized == storiesContainer.code) {
       return const Center(
         child: Text('Unauthorized: Check your API Keys!'),
       );
     }
 
-    if (null != characterContainer.data?.results) {
-      characters = characterContainer.data!.results!;
+    if (null != storiesContainer.data?.results) {
+      stories = storiesContainer.data!.results!;
     }
 
     List<Widget> gridItems =
-        characters.map((value) => _characterCard(value)).toList();
+        stories.map((value) => _storiesCard(value)).toList();
 
     TextTheme textTheme = Theme.of(context).textTheme;
-
     return Scaffold(
       floatingActionButton: ElevatedButton(
         onPressed: () {
@@ -83,11 +83,11 @@ class _CharacterPageState extends State<CharacterPage> {
           child: Column(
             children: [
               Text(
-                'Characters',
+                'Stories',
                 style: textTheme.headlineSmall,
               ),
               Text(
-                characterContainer.attributionText ?? '',
+                storiesContainer.attributionText ?? '',
                 style: textTheme.caption,
               ),
               Expanded(
@@ -110,18 +110,18 @@ class _CharacterPageState extends State<CharacterPage> {
     );
   }
 
-  Card _characterCard(Character character) {
+  Card _storiesCard(Story story) {
     return Card(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          if (null != character.thumbnail?.path)
+          if (null != story.thumbnail?.path)
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.network(
                 // get the standard large image
                 // see https://developer.marvel.com/documentation/images
-                '${character.thumbnail?.path!}/standard_large.${character.thumbnail?.extension!}',
+                '${story.thumbnail?.path!}/standard_large.${story.thumbnail?.extension!}',
                 width: 140,
                 height: 140,
               ),
@@ -130,8 +130,13 @@ class _CharacterPageState extends State<CharacterPage> {
             height: 8,
           ),
           Text(
-            character.name ?? 'unknown',
+            story.originalIssue?.name ?? 'unknown',
             textAlign: TextAlign.center,
+          ),
+          Text(
+            story.title ?? 'unknown',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.caption,
           ),
         ],
       ),

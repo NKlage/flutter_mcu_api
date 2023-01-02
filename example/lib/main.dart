@@ -1,5 +1,11 @@
 import 'package:example/pages/character_page.dart';
+import 'package:example/pages/comic_page.dart';
+import 'package:example/pages/creator_page.dart';
+import 'package:example/pages/events_page.dart';
+import 'package:example/pages/series_page.dart';
+import 'package:example/pages/stories_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_marvel_api/flutter_marvel_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +36,21 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int currentViewIndex = 0;
+
+  late MarvelApi _marvelApi;
+  final String publicApiKey = const String.fromEnvironment('publicKey');
+  final String privateApiKey = const String.fromEnvironment('privateKey');
+
+  _HomePageState();
+
+  @override
+  void initState() {
+    super.initState();
+    _marvelApi = MarvelApi(
+      publicApiKey: publicApiKey, // use your own public key
+      privateApiKey: privateApiKey, // use your own private key
+    );
+  }
 
   void setIndex(int index) {
     setState(() {
@@ -105,13 +126,15 @@ class _HomePageState extends State<HomePage> {
       ),
       body: IndexedStack(
         index: currentViewIndex,
-        children: const [
-          CharacterPage(),
-          Text('Comics'),
-          Text('Creators'),
-          Text('Events'),
-          Text('Series'),
-          Text('Stories'),
+        children: [
+          CharacterPage(
+            marvelApi: _marvelApi,
+          ),
+          ComicPage(marvelApi: _marvelApi),
+          CreatorPage(marvelApi: _marvelApi),
+          EventsPage(marvelApi: _marvelApi),
+          SeriesPage(marvelApi: _marvelApi),
+          StoriesPage(marvelApi: _marvelApi),
         ],
       ),
     );
