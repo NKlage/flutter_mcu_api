@@ -1,0 +1,272 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2023 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2023 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2023 MARVEL</a>",
+  "etag": "def86335c8da0d247d75aa0e6550bc8cd3a6b00f",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 1010892,
+        "name": "Rawhide Kid",
+        "description": "",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/90/4ce5a3e0dbd3a",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010892",
+        "comics": {
+          "available": 125,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010892/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/46180",
+              "name": "Indestructible Hulk (2012) #12"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/19821",
+              "name": "Marvel Fanfare (1982) #45"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/4302",
+              "name": "MARVEL MASTERWORKS: RAWHIDE KID VOL. 1 HC (Hardcover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1137",
+              "name": "Rawhide Kid (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16979",
+              "name": "Rawhide Kid (1955) #17"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16980",
+              "name": "Rawhide Kid (1955) #18"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16981",
+              "name": "Rawhide Kid (1955) #19"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16982",
+              "name": "Rawhide Kid (1955) #20"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16983",
+              "name": "Rawhide Kid (1955) #21"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16984",
+              "name": "Rawhide Kid (1955) #22"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16985",
+              "name": "Rawhide Kid (1955) #23"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16986",
+              "name": "Rawhide Kid (1955) #24"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16987",
+              "name": "Rawhide Kid (1955) #25"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16988",
+              "name": "Rawhide Kid (1955) #26"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16989",
+              "name": "Rawhide Kid (1955) #27"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16990",
+              "name": "Rawhide Kid (1955) #28"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16991",
+              "name": "Rawhide Kid (1955) #29"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16992",
+              "name": "Rawhide Kid (1955) #30"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16993",
+              "name": "Rawhide Kid (1955) #31"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16994",
+              "name": "Rawhide Kid (1955) #32"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 7,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010892/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/16583",
+              "name": "Indestructible Hulk (2012 - 2014)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3719",
+              "name": "Marvel Fanfare (1982 - 1992)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1732",
+              "name": "MARVEL MASTERWORKS: RAWHIDE KID VOL. 1 HC (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2988",
+              "name": "Rawhide Kid (1955 - 1979)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/196",
+              "name": "Rawhide Kid (2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8904",
+              "name": "The Rawhide Kid (2010)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3662",
+              "name": "Two-Gun Kid (1948 - 1977)"
+            }
+          ],
+          "returned": 7
+        },
+        "stories": {
+          "available": 375,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010892/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/236",
+              "name": "Writer Ron Zimmerman and legendary Western comics artist John Severin take aim at the lovable redheaded Western scamp The Rawhid",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35509",
+              "name": "Cover #35509",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35510",
+              "name": "Gunfight At Fury Falls",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35511",
+              "name": "El Sombro",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35512",
+              "name": "I Shot Jesse James!",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35513",
+              "name": "I Shot Jesse James",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35514",
+              "name": "Ambush",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35515",
+              "name": "Cover #35515",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35516",
+              "name": "Guns of the Comancheros",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35517",
+              "name": "The Man Who Couldn't Be Killed",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35518",
+              "name": "Cover #35518",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35519",
+              "name": "The Town Tyrant",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35520",
+              "name": "Branded",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35521",
+              "name": "Shoot-Out at Mesa City!",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35522",
+              "name": "Shoot-Out At Mesa City",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35523",
+              "name": "The Gun That Couldn't Lose",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35524",
+              "name": "War In Chicamaw County",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35525",
+              "name": "Cover #35525",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35526",
+              "name": "The Sinister Sons of Ma Morgan",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35528",
+              "name": "Cover #35528",
+              "type": "cover"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010892/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1881/rawhide_kid?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1010892/rawhide_kid?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -24,11 +24,21 @@ abstract class Endpoint<T extends DataContainer> {
   /// [args] are optional and are added to the HTTP request as queryParamters
   /// See: https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
   Future<ApiResponse<T>> fetch({int? id, Map<String, dynamic>? args}) async {
+    return await fetchGeneric(_apiSegment, fromJson, id: id, args: args);
+  }
+
+  /// Fetches a list of resources from [apiSegment] or a single resource if the optional [id] is specified.
+  /// [args] are optional and are added to the HTTP request as queryParamters
+  /// See: https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
+  /// [fromJsonConverter] convert the HTTP Response Body to Object
+  Future<ApiResponse<R>> fetchGeneric<R extends DataContainer>(
+      String apiSegment, Function fromJsonConverter,
+      {int? id, Map<String, dynamic>? args}) async {
     try {
-      String url = _apiSegment;
+      String url = apiSegment;
 
       if (null != id) {
-        url = '$_apiSegment/$id';
+        url = '$apiSegment/$id';
       }
 
       final response = await _httpClient.get(url, queryParameters: args);
@@ -41,13 +51,13 @@ abstract class Endpoint<T extends DataContainer> {
           result = response.data;
         }
 
-        ApiResponse<T> apiResponse = ApiResponse(
+        ApiResponse<R> apiResponse = ApiResponse(
           status: result['status'],
           code: result['code'],
           attributionText: result['attributionText'],
           attributionHTML: result['attributionHTML'],
           copyright: result['copyright'],
-          data: fromJson(result['data']),
+          data: fromJsonConverter(result['data']),
           etag: result['etag'],
         );
         return apiResponse;

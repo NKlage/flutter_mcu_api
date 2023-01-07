@@ -48,4 +48,92 @@ void main() {
     expect(apiResponse.data?.results, isA<List<Character>>());
     expect(apiResponse.data?.results?.length, 20);
   });
+
+  test('get comics by characterId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.characterComicList);
+
+    const expectedCharacterId = 1011334;
+
+    dioAdapter.onGet('/characters/$expectedCharacterId/comics', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<ComicDataContainer> apiResponse =
+        await marvelApi.characters.comics(expectedCharacterId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<ComicDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Comic>>());
+    expect(apiResponse.data?.results?.length, 12);
+  });
+
+  test('get events by characterId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.characterEventList);
+
+    const expectedCharacterId = 1011334;
+
+    dioAdapter.onGet('/characters/$expectedCharacterId/events', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<EventDataContainer> apiResponse =
+        await marvelApi.characters.events(expectedCharacterId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<EventDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Event>>());
+    expect(apiResponse.data?.results?.length, 1);
+  });
+
+  test('get series by characterId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.characterSeriesList);
+
+    const expectedCharacterId = 1011334;
+
+    dioAdapter.onGet('/characters/$expectedCharacterId/series', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<SeriesDataContainer> apiResponse =
+        await marvelApi.characters.series(expectedCharacterId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<SeriesDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Serie>>());
+    expect(apiResponse.data?.results?.length, 3);
+  });
+
+  test('get stories by characterId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.characterStoriesList);
+
+    const expectedCharacterId = 1011334;
+
+    dioAdapter.onGet('/characters/$expectedCharacterId/stories', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<StoryDataContainer> apiResponse =
+        await marvelApi.characters.stories(expectedCharacterId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<StoryDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Story>>());
+    expect(apiResponse.data?.results?.length, 20);
+  });
 }

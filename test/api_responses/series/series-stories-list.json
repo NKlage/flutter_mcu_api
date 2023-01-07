@@ -1,0 +1,2079 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2023 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2023 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2023 MARVEL</a>",
+  "etag": "8b8e868c5b20b782a9e24545b8add39dd373a5ef",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 84,
+    "count": 20,
+    "results": [
+      {
+        "id": 8381,
+        "title": "Avengers: The Initiative (2007) #1",
+        "description": "After Armory's weapon causes the death of M.V.P., she washes out of the Initiative Program. The circumstances of the event have since been made hush-hush. As far as the Initiative is concerned, M.V.P. never died in Stamford...",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/8381",
+        "type": "cover",
+        "modified": "2018-12-31T10:24:36-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8381/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8381/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009189",
+              "name": "Black Widow"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010338",
+              "name": "Captain Marvel (Carol Danvers)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011490",
+              "name": "Hank Pym"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009355",
+              "name": "Hulkling"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009492",
+              "name": "Patriot"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009714",
+              "name": "Wiccan"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009719",
+              "name": "Wonder Man"
+            }
+          ],
+          "returned": 10
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8381/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8381/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/6232",
+              "name": "Avengers: The Initiative (2007) #1"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8381/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6232",
+          "name": "Avengers: The Initiative (2007) #1"
+        }
+      },
+      {
+        "id": 8382,
+        "title": "Interior #8382",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/8382",
+        "type": "story",
+        "modified": "2018-12-31T10:27:11-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8382/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8382/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009189",
+              "name": "Black Widow"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+              "name": "Iron Man"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+              "name": "She-Hulk (Jennifer Walters)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 5
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8382/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8382/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/6232",
+              "name": "Avengers: The Initiative (2007) #1"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8382/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6232",
+          "name": "Avengers: The Initiative (2007) #1"
+        }
+      },
+      {
+        "id": 8705,
+        "title": "AVENGERS: THE INITIATIVE (2007) #2",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/8705",
+        "type": "cover",
+        "modified": "2017-03-28T10:22:11-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8705/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8705/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010760",
+              "name": "Justice"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010822",
+              "name": "Trauma"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017834",
+              "name": "War Machine (James Rhodes)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 10
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8705/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8705/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13489",
+              "name": "Avengers: The Initiative (2007) #2"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8705/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/255",
+              "name": "Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/13489",
+          "name": "Avengers: The Initiative (2007) #2"
+        }
+      },
+      {
+        "id": 8706,
+        "title": "2 of 6 - 6XLS; THE INITIATIVE BANNER",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/8706",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8706/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8706/characters",
+          "items": [],
+          "returned": 0
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8706/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8706/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13489",
+              "name": "Avengers: The Initiative (2007) #2"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/8706/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/255",
+              "name": "Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/13489",
+          "name": "Avengers: The Initiative (2007) #2"
+        }
+      },
+      {
+        "id": 32405,
+        "title": "AVENGERS: THE INITIATIVE (2007) #3",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/32405",
+        "type": "cover",
+        "modified": "2017-03-28T11:03:41-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32405/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32405/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+              "name": "Beast"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010371",
+              "name": "Boomerang"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009585",
+              "name": "Shocker (Herman Schultz)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010822",
+              "name": "Trauma"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 9
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32405/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32405/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15869",
+              "name": "Avengers: The Initiative (2007) #3"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32405/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/255",
+              "name": "Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/15869",
+          "name": "Avengers: The Initiative (2007) #3"
+        }
+      },
+      {
+        "id": 32406,
+        "title": "Avengers: The Initiative (2007) #3 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/32406",
+        "type": "story",
+        "modified": "2011-10-07T16:01:47-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32406/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32406/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010371",
+              "name": "Boomerang"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009585",
+              "name": "Shocker (Herman Schultz)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010788",
+              "name": "Venom (Mac Gargan)"
+            }
+          ],
+          "returned": 4
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32406/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32406/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15869",
+              "name": "Avengers: The Initiative (2007) #3"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32406/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/255",
+              "name": "Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/15869",
+          "name": "Avengers: The Initiative (2007) #3"
+        }
+      },
+      {
+        "id": 32626,
+        "title": "AVENGERS: THE INITIATIVE (2007) #4",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/32626",
+        "type": "cover",
+        "modified": "2017-03-28T11:40:16-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32626/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32626/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010760",
+              "name": "Justice"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010817",
+              "name": "Rage"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011057",
+              "name": "Slapstick"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010822",
+              "name": "Trauma"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010825",
+              "name": "Triathlon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017834",
+              "name": "War Machine (James Rhodes)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 12
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32626/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32626/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15976",
+              "name": "Avengers: The Initiative (2007) #4"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32626/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/15976",
+          "name": "Avengers: The Initiative (2007) #4"
+        }
+      },
+      {
+        "id": 32627,
+        "title": "Avengers: The Initiative (2007) #4 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/32627",
+        "type": "story",
+        "modified": "2011-10-07T16:08:55-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32627/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32627/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 2
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32627/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32627/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/15976",
+              "name": "Avengers: The Initiative (2007) #4"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/32627/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/15976",
+          "name": "Avengers: The Initiative (2007) #4"
+        }
+      },
+      {
+        "id": 33014,
+        "title": "Avengers: The Initiative (2007) #5",
+        "description": "World War Hulk Tie-In! The Initiative program denies all knowledge of a special Black Ops Team. The Superhuman Armed Forces wishes to dispel all rumors of a 199th mutant. We repeat, there is no Mutant Zero. Mutant Zero does NOT exist. That is all.",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33014",
+        "type": "cover",
+        "modified": "2018-12-20T09:18:34-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 6,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33014/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/357",
+              "name": "Jim Cheung",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 6
+        },
+        "characters": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33014/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009245",
+              "name": "Constrictor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010820",
+              "name": "Thor Girl"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010822",
+              "name": "Trauma"
+            }
+          ],
+          "returned": 9
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33014/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33014/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16162",
+              "name": "Avengers: The Initiative (2007) #5"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33014/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16162",
+          "name": "Avengers: The Initiative (2007) #5"
+        }
+      },
+      {
+        "id": 33015,
+        "title": "Avengers: The Initiative (2007) #5 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33015",
+        "type": "story",
+        "modified": "2018-12-20T09:23:41-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33015/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13586",
+              "name": "Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33015/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+              "name": "Hulk"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010817",
+              "name": "Rage"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 4
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33015/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33015/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16162",
+              "name": "Avengers: The Initiative (2007) #5"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33015/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16162",
+          "name": "Avengers: The Initiative (2007) #5"
+        }
+      },
+      {
+        "id": 33361,
+        "title": "Avengers: The Initiative (2007) #6",
+        "description": "The Gauntlet, the Initiative's top drill instructor, has been beaten and left for dead. And all the evidence points towards his attacker being someone on the base. Who did it? A spy? A recruit? An instructor?",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33361",
+        "type": "cover",
+        "modified": "2018-12-20T09:37:36-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33361/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4508",
+              "name": "Steve Uy",
+              "role": "penciller"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 10,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33361/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010717",
+              "name": "Debrii"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010760",
+              "name": "Justice"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010817",
+              "name": "Rage"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 10
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33361/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33361/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16542",
+              "name": "Avengers: The Initiative (2007) #6"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33361/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16542",
+          "name": "Avengers: The Initiative (2007) #6"
+        }
+      },
+      {
+        "id": 33362,
+        "title": "Avengers: The Initiative (2007) #6 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33362",
+        "type": "story",
+        "modified": "2018-12-20T09:40:31-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33362/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/13586",
+              "name": "Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4508",
+              "name": "Steve Uy",
+              "role": "penciller"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33362/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 2
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33362/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33362/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16542",
+              "name": "Avengers: The Initiative (2007) #6"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33362/events",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/events/277",
+              "name": "World War Hulk"
+            }
+          ],
+          "returned": 1
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16542",
+          "name": "Avengers: The Initiative (2007) #6"
+        }
+      },
+      {
+        "id": 33363,
+        "title": "AVENGERS: THE INITIATIVE (2007) #7",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33363",
+        "type": "cover",
+        "modified": "2017-03-28T13:42:29-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33363/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 9,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33363/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010325",
+              "name": "Betty Brant"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009372",
+              "name": "J. Jonah Jameson"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017834",
+              "name": "War Machine (James Rhodes)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 9
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33363/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33363/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16543",
+              "name": "Avengers: The Initiative (2007) #7"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33363/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16543",
+          "name": "Avengers: The Initiative (2007) #7"
+        }
+      },
+      {
+        "id": 33364,
+        "title": "Avengers: The Initiative (2007) #7 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/33364",
+        "type": "story",
+        "modified": "2011-10-07T16:30:38-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33364/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33364/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010325",
+              "name": "Betty Brant"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009372",
+              "name": "J. Jonah Jameson"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+              "name": "Spider-Man (Peter Parker)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 4
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33364/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33364/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/16543",
+              "name": "Avengers: The Initiative (2007) #7"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/33364/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16543",
+          "name": "Avengers: The Initiative (2007) #7"
+        }
+      },
+      {
+        "id": 36469,
+        "title": "AVENGERS: THE INITIATIVE (2007) #8",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/36469",
+        "type": "cover",
+        "modified": "2017-03-28T14:18:44-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36469/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36469/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010828",
+              "name": "Stature"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010820",
+              "name": "Thor Girl"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010825",
+              "name": "Triathlon"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 8
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36469/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36469/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17397",
+              "name": "Avengers: The Initiative (2007) #8"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36469/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/17397",
+          "name": "Avengers: The Initiative (2007) #8"
+        }
+      },
+      {
+        "id": 36470,
+        "title": "Avengers: The Initiative (2007) #8 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/36470",
+        "type": "story",
+        "modified": "2011-10-07T16:43:14-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36470/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "inker"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36470/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36470/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36470/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17397",
+              "name": "Avengers: The Initiative (2007) #8"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36470/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/17397",
+          "name": "Avengers: The Initiative (2007) #8"
+        }
+      },
+      {
+        "id": 36907,
+        "title": "AVENGERS: THE INITIATIVE (2007) #9",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/36907",
+        "type": "cover",
+        "modified": "2017-03-28T15:40:31-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36907/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 8,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36907/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+              "name": "Taskmaster"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010820",
+              "name": "Thor Girl"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010822",
+              "name": "Trauma"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009737",
+              "name": "Yellowjacket (Hank Pym)"
+            }
+          ],
+          "returned": 8
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36907/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36907/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17638",
+              "name": "Avengers: The Initiative (2007) #9"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36907/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/17638",
+          "name": "Avengers: The Initiative (2007) #9"
+        }
+      },
+      {
+        "id": 36908,
+        "title": "Killed in Action 1 of 1",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/36908",
+        "type": "story",
+        "modified": "1969-12-31T19:00:00-0500",
+        "thumbnail": null,
+        "creators": {
+          "available": 4,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36908/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 4
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36908/characters",
+          "items": [],
+          "returned": 0
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36908/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36908/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/17638",
+              "name": "Avengers: The Initiative (2007) #9"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/36908/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/17638",
+          "name": "Avengers: The Initiative (2007) #9"
+        }
+      },
+      {
+        "id": 44343,
+        "title": "AVENGERS: THE INITIATIVE (2007) #10",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/44343",
+        "type": "cover",
+        "modified": "2017-03-28T16:18:36-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44343/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 12,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44343/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009165",
+              "name": "Avengers"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010823",
+              "name": "Cloud 9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010717",
+              "name": "Debrii"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009316",
+              "name": "Gauntlet (Joseph Green)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010821",
+              "name": "Hardball"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011371",
+              "name": "Henry Peter Gyrich"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010760",
+              "name": "Justice"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010818",
+              "name": "Komodo (Melati Kusuma)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010826",
+              "name": "MVP"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010817",
+              "name": "Rage"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011057",
+              "name": "Slapstick"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009648",
+              "name": "Taskmaster"
+            }
+          ],
+          "returned": 12
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44343/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44343/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20679",
+              "name": "Avengers: The Initiative (2007) #10"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44343/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/20679",
+          "name": "Avengers: The Initiative (2007) #10"
+        }
+      },
+      {
+        "id": 44344,
+        "title": "Avengers: The Initiative (2007) #10 - Int",
+        "description": "",
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/44344",
+        "type": "story",
+        "modified": "2011-10-07T16:57:48-0400",
+        "thumbnail": null,
+        "creators": {
+          "available": 5,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44344/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+              "name": "Tom Brevoort",
+              "role": "editor"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+              "name": "Vc Joe Caramagna",
+              "role": "letterer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1133",
+              "name": "Stefano Caselli",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1134",
+              "name": "Daniele Rudoni",
+              "role": "colorist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12983",
+              "name": "Dan Slott",
+              "role": "writer"
+            }
+          ],
+          "returned": 5
+        },
+        "characters": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44344/characters",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010998",
+              "name": "The Initiative"
+            }
+          ],
+          "returned": 1
+        },
+        "series": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44344/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1945",
+              "name": "Avengers: The Initiative (2007 - 2010)"
+            }
+          ],
+          "returned": 1
+        },
+        "comics": {
+          "available": 1,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44344/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20679",
+              "name": "Avengers: The Initiative (2007) #10"
+            }
+          ],
+          "returned": 1
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/stories/44344/events",
+          "items": [],
+          "returned": 0
+        },
+        "originalIssue": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/20679",
+          "name": "Avengers: The Initiative (2007) #10"
+        }
+      }
+    ]
+  }
+}

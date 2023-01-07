@@ -48,4 +48,114 @@ void main() {
     expect(apiResponse.data?.results, isA<List<Serie>>());
     expect(apiResponse.data?.results?.length, 20);
   });
+
+  test('get characters from seriesId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.seriesCharacterList);
+
+    const expectedSeriesId = 1945;
+
+    dioAdapter.onGet('/series/$expectedSeriesId/characters', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<CharacterDataContainer> apiResponse =
+        await marvelApi.series.characters(expectedSeriesId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<CharacterDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Character>>());
+    expect(apiResponse.data?.results?.length, 20);
+  });
+
+  test('get comics from seriesId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.seriesComicList);
+
+    const expectedSeriesId = 1945;
+
+    dioAdapter.onGet('/series/$expectedSeriesId/comics', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<ComicDataContainer> apiResponse =
+        await marvelApi.series.comics(expectedSeriesId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<ComicDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Comic>>());
+    expect(apiResponse.data?.results?.length, 20);
+  });
+
+  test('get creators from seriesId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.seriesCreatorList);
+
+    const expectedSeriesId = 1945;
+
+    dioAdapter.onGet('/series/$expectedSeriesId/creators', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<CreatorDataContainer> apiResponse =
+        await marvelApi.series.creators(expectedSeriesId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<CreatorDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Creator>>());
+    expect(apiResponse.data?.results?.length, 20);
+  });
+
+  test('get events from seriesId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.seriesEventList);
+
+    const expectedSeriesId = 1945;
+
+    dioAdapter.onGet('/series/$expectedSeriesId/events', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<EventDataContainer> apiResponse =
+        await marvelApi.series.events(expectedSeriesId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<EventDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Event>>());
+    expect(apiResponse.data?.results?.length, 5);
+  });
+
+  test('get stories from seriesId should return 200', () async {
+    final expectedResponse =
+        await ApiResponses.jsonResponse(ApiResponses.seriesStoryList);
+
+    const expectedSeriesId = 1945;
+
+    dioAdapter.onGet('/series/$expectedSeriesId/stories', (server) {
+      server.reply(HttpStatus.ok, expectedResponse);
+    }, queryParameters: defaultApiQueryParameters);
+
+    final ApiResponse<StoryDataContainer> apiResponse =
+        await marvelApi.series.stories(expectedSeriesId);
+
+    expect(apiResponse.code, HttpStatus.ok);
+    expect(apiResponse.status, 'Ok');
+    expect(apiResponse.data, isNotNull);
+    expect(apiResponse.data, isA<StoryDataContainer>());
+    expect(apiResponse.data?.results, isNotNull);
+    expect(apiResponse.data?.results, isA<List<Story>>());
+    expect(apiResponse.data?.results?.length, 20);
+  });
 }

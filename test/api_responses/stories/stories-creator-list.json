@@ -1,0 +1,618 @@
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2023 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2023 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2023 MARVEL</a>",
+  "etag": "e9c7bd9da0437bb9c565c36a82795ab956582932",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 2,
+    "count": 2,
+    "results": [
+      {
+        "id": 229,
+        "firstName": "John",
+        "middleName": "",
+        "lastName": "Severin",
+        "suffix": "",
+        "fullName": "John Severin",
+        "modified": "2013-03-29T14:20:53-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/10/4bc373194fbbb",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/creators/229",
+        "comics": {
+          "available": 66,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/229/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/90535",
+              "name": "Adventure Into Fear (1970) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/20759",
+              "name": "Dead of Night (1973) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8485",
+              "name": "Deadpool (1997) #30"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/25123",
+              "name": "Essential Sub-Mariner Vol. 1 (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8942",
+              "name": "Incredible Hulk (1962) #131"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8943",
+              "name": "Incredible Hulk (1962) #132"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8944",
+              "name": "Incredible Hulk (1962) #133"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8952",
+              "name": "Incredible Hulk (1962) #141"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8953",
+              "name": "Incredible Hulk (1962) #142"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8954",
+              "name": "Incredible Hulk (1962) #143"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8955",
+              "name": "Incredible Hulk (1962) #144"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8956",
+              "name": "Incredible Hulk (1962) #145"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8957",
+              "name": "Incredible Hulk (1962) #146"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8958",
+              "name": "Incredible Hulk (1962) #147"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8959",
+              "name": "Incredible Hulk (1962) #148"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8960",
+              "name": "Incredible Hulk (1962) #149"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8961",
+              "name": "Incredible Hulk (1962) #150"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8962",
+              "name": "Incredible Hulk (1962) #151"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8964",
+              "name": "Incredible Hulk (1962) #153"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/8965",
+              "name": "Incredible Hulk (1962) #154"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 22,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/229/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2113",
+              "name": "Adventure Into Fear (1970 - 1975)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3898",
+              "name": "Dead of Night (1973 - 1975)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2005",
+              "name": "Deadpool (1997 - 2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/7757",
+              "name": "Essential Sub-Mariner Vol. 1 (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2021",
+              "name": "Incredible Hulk (1962 - 1999)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2033",
+              "name": "Love Romances (1949 - 1963)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8028",
+              "name": "Marvel Masterworks: Atlas Era Black Knight/Yellow Claw Vol. 1 Variant (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8027",
+              "name": "Marvel Masterworks: Atlas Era Black Knight/Yellow Claw Vol.1 (2009 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/14514",
+              "name": "MARVEL MASTERWORKS: THE INCREDIBLE HULK VOL. 6 HC (2011 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/23791",
+              "name": "Not Brand Echh (1967 - 1969)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/29255",
+              "name": "Peter Porker, The Spectacular Spider-ham: The Complete Collection Vol. 2 (2020)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1786",
+              "name": "Punisher Max: From First to Last (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/849",
+              "name": "Punisher: The Tyger (2006)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/196",
+              "name": "Rawhide Kid (2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/6683",
+              "name": "Sgt. Fury and His Howling Commandos Annual (1965 - 1971)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2076",
+              "name": "Strange Tales (1951 - 1968)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2989",
+              "name": "Sub-Mariner (1968 - 1974)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/12577",
+              "name": "The Nam Vol. 2 (2010 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2084",
+              "name": "Tomb of Dracula (1972 - 1979)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/3662",
+              "name": "Two-Gun Kid (1948 - 1977)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 99,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/229/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/236",
+              "name": "Writer Ron Zimmerman and legendary Western comics artist John Severin take aim at the lovable redheaded Western scamp The Rawhid",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/4421",
+              "name": "1 of 1",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/6306",
+              "name": "Interior #6306",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/7473",
+              "name": "Punisher: The Tyger, Punisher: The Cell, Punisher: The End",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/10002",
+              "name": "I Searched for Romance",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/20044",
+              "name": "Cover #20044",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24581",
+              "name": "DEADPOOL (1997) #30",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/27365",
+              "name": "I Searched for Romance",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35968",
+              "name": "Cover #35968",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/35969",
+              "name": "Namor Agonistes!",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39428",
+              "name": "Cover #39428",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39431",
+              "name": "Cover #39431",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39437",
+              "name": "Cover #39437",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39441",
+              "name": "Cover #39441",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39448",
+              "name": "Cover #39448",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39478",
+              "name": "The Man Who Out-Drew the Kid",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39503",
+              "name": "The Fury of Ox Miller",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39541",
+              "name": "The Amazing Mr. Hurricane!",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39619",
+              "name": "Not Wanted",
+              "type": ""
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/39628",
+              "name": "Cover #39628",
+              "type": "cover"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/229/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/creators/229/john_severin?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a"
+          }
+        ]
+      },
+      {
+        "id": 228,
+        "firstName": "Ron",
+        "middleName": "",
+        "lastName": "Zimmerman",
+        "suffix": "",
+        "fullName": "Ron Zimmerman",
+        "modified": "2013-04-02T17:11:39-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/creators/228",
+        "comics": {
+          "available": 25,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/228/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/18965",
+              "name": "Punisher (2001) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1137",
+              "name": "Rawhide Kid (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1271",
+              "name": "Spider-Man: Blue (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/10914",
+              "name": "Spider-Man's Tangled Web (2001) #13"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/10929",
+              "name": "Spider-Man: Blue (2002) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71932",
+              "name": "Spider-Man: Get Kraven (2002) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71933",
+              "name": "Spider-Man: Get Kraven (2002) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71934",
+              "name": "Spider-Man: Get Kraven (2002) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71935",
+              "name": "Spider-Man: Get Kraven (2002) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71936",
+              "name": "Spider-Man: Get Kraven (2002) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/71937",
+              "name": "Spider-Man: Get Kraven (2002) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/27865",
+              "name": "The Rawhide Kid (2010) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/27866",
+              "name": "The Rawhide Kid (2010) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/37086",
+              "name": "The Rawhide Kid (2010) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/37087",
+              "name": "The Rawhide Kid (2010) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/18674",
+              "name": "Thor (1998) #49"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1074",
+              "name": "Thor Vol. II: Lord of Asgard (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/160",
+              "name": "Ultimate Adventures (2002) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1934",
+              "name": "Ultimate Adventures Vol. 1: One Tin Soldier (Trade Paperback)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/1204",
+              "name": "Ultimate Adventures Vol. I (Trade Paperback)"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 17,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/228/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/436",
+              "name": "Punisher (2001 - 2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/196",
+              "name": "Rawhide Kid (2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2071",
+              "name": "Spider-Man's Tangled Web (2001 - 2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2072",
+              "name": "Spider-Man: Blue (2002 - 2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/325",
+              "name": "Spider-Man: Blue (2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/26230",
+              "name": "Spider-Man: Get Kraven (2002 - 2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/8904",
+              "name": "The Rawhide Kid (2010)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/581",
+              "name": "Thor (1998 - 2004)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/134",
+              "name": "Thor Vol. II: Lord of Asgard (1999)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/469",
+              "name": "Ultimate Adventures (2002 - 2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1173",
+              "name": "Ultimate Adventures Vol. 1: One Tin Soldier (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/261",
+              "name": "Ultimate Adventures Vol. I (2003)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/466",
+              "name": "Ultimate Spider-Man (2000 - 2009)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/78",
+              "name": "ULTIMATE SPIDER-MAN VOL. 4: LEGACY TPB (2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/474",
+              "name": "Ultimate X-Men (2001 - 2009)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/1168",
+              "name": "ULTIMATE X-MEN VOL. 3: WORLD TOUR TPB (2005)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/82",
+              "name": "Ultimate X-Men Vol. III: World Tour (2002)"
+            }
+          ],
+          "returned": 17
+        },
+        "stories": {
+          "available": 26,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/228/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/236",
+              "name": "Writer Ron Zimmerman and legendary Western comics artist John Severin take aim at the lovable redheaded Western scamp The Rawhid",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/1299",
+              "name": "Interior #1299",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/6330",
+              "name": "Ultimate Adventures 1-6",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/25780",
+              "name": "Jay Leno & Spider-Man: One Night Only! (Don't Forget to Tip Your Waitress) Part Two",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/30338",
+              "name": "Jay Leno & Spider-Man: One Night Only! (Don't Forget To Tip Your Waitress) Part One",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/32084",
+              "name": "Jay Leno & Spider-Man: One Night Only! (Don't Forget to Tip Your Waitress) Part Three",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/40017",
+              "name": "One Night Only! (Don't Forget to Tip Your Waitress) Part One",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/45008",
+              "name": "Interior #45008",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/60974",
+              "name": "Interior #60974",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/60976",
+              "name": "Interior #60976",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/76964",
+              "name": "Interior #76964",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/76966",
+              "name": "Interior #76966",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/76970",
+              "name": "Interior #76970",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/76974",
+              "name": "Interior #76974",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/80258",
+              "name": "Interior #80258",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/80260",
+              "name": "Interior #80260",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/80264",
+              "name": "Interior #80264",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/82206",
+              "name": "Interior #82206",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/82208",
+              "name": "Interior #82208",
+              "type": "interiorStory"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/153407",
+              "name": "story from Spider-Man's Tangled Web (2001) #13",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/creators/228/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/creators/228/ron_zimmerman?utm_campaign=apiRef&utm_source=cc2caa9cfdaabd58ebf54e6c07e7fa0a"
+          }
+        ]
+      }
+    ]
+  }
+}
