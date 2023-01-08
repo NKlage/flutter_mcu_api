@@ -13,12 +13,12 @@ class ApiResponse<T extends DataContainer> {
 
   /// The attribution notice for this result. Please display either this notice
   /// or the contents of the attributionHTML field on all screens which contain
-  /// data from the Marvel Comics API.
+  /// data from the MCU Comics API.
   final String? attributionText;
 
   /// An HTML representation of the attribution notice for this result.
   /// Please display either this notice or the contents of the attributionText
-  /// field on all screens which contain data from the Marvel Comics API.
+  /// field on all screens which contain data from the MCU Comics API.
   final String? attributionHTML;
 
   /// The results returned by the call.

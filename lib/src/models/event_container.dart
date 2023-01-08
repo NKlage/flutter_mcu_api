@@ -1,7 +1,7 @@
 import '../models.dart' show Event;
 import 'data_container.dart';
 
-/// Represents the DataContainer for Marvel Events
+/// Represents the DataContainer for Events
 class EventDataContainer extends DataContainer<List<Event>?> {
   /// Default Constructor
   EventDataContainer();

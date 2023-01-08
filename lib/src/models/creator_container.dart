@@ -1,7 +1,7 @@
 import '../models.dart' show Creator;
 import 'data_container.dart';
 
-/// Represents the DataContainer for Marvel Creators
+/// Represents the DataContainer for Creators
 class CreatorDataContainer extends DataContainer<List<Creator>> {
   /// Default Constructor
   CreatorDataContainer();

@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  flutter_marvel_api:
+  flutter_mcu_api:
     path: ../
 
 dev_dependencies:

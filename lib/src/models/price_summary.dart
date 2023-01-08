@@ -1,4 +1,4 @@
-/// Represents a Marvel Price
+/// Represents a Price
 class PriceSummary {
   /// A description of the price (e.g. print price, digital price).
   final String? type;

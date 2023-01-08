@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 
-class MarvelApiQueryParamsMatcher extends HttpRequestMatcher {
-  const MarvelApiQueryParamsMatcher();
+class McuApiQueryParamsMatcher extends HttpRequestMatcher {
+  const McuApiQueryParamsMatcher();
 
   @override
   bool matches(RequestOptions ongoingRequest, Request matcher) {
-    // add marvel api keys to request matcher queryParameters
+    // add mcu api keys to request matcher queryParameters
     matcher.queryParameters?['ts'] = ongoingRequest.queryParameters['ts'];
     matcher.queryParameters?['apikey'] =
         ongoingRequest.queryParameters['apikey'];

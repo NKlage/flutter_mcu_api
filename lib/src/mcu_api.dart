@@ -2,12 +2,12 @@ import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import 'package:flutter_mcu_api/flutter_mcu_api.dart';
 
-/// Handles the Marvel REST API
+/// Handles the REST API
 ///
-/// Requires the Marvel private and public keys (https://developer.marvel.com/documentation/getting_started)
-class MarvelApi {
+/// Requires the private and public keys (https://developer.marvel.com/documentation/getting_started)
+class McuApi {
   /// Public API Key
   final String publicApiKey;
 
@@ -18,42 +18,42 @@ class MarvelApi {
   Dio? httpClient;
   final String _baseUrl = 'https://gateway.marvel.com:443/v1/public';
 
-  /// The [publicApiKey] and [privateApiKey] of the Marvel API are required.
+  /// The [publicApiKey] and [privateApiKey] of the MCU API are required.
   /// The DIO client adds the required apikey, ts (timestamp) and hash through an
   /// interceptor so that the data can be retrieved.
   /// see: https://developer.marvel.com/documentation/authorization
-  MarvelApi(
+  McuApi(
       {required this.publicApiKey,
       required this.privateApiKey,
       this.httpClient}) {
     BaseOptions dioOptions = BaseOptions(baseUrl: _baseUrl);
     httpClient ??= Dio(dioOptions);
     httpClient?.interceptors.add(
-      _DioMarvelApiInterceptor(
+      _DioMcuApiInterceptor(
           publicApiKey: publicApiKey, privateApiKey: privateApiKey),
     );
   }
 
-  /// Get the Marvel API Character Endpoint
+  /// Get the API Character Endpoint
   CharacterEndpoint get characters => CharacterEndpoint(httpClient!);
 
-  /// Get the Marvel API Comic Endpoint
+  /// Get the API Comic Endpoint
   ComicEndpoint get comics => ComicEndpoint(httpClient!);
 
-  /// Get the Marvel API Creators Endpoint
+  /// Get the API Creators Endpoint
   CreatorEndpoint get creators => CreatorEndpoint(httpClient!);
 
-  /// Get the Marvel API Events Endpoint
+  /// Get the API Events Endpoint
   EventEndpoint get events => EventEndpoint(httpClient!);
 
-  /// Get the Marvel API Series Endpoint
+  /// Get the API Series Endpoint
   SeriesEndpoint get series => SeriesEndpoint(httpClient!);
 
-  /// Get the Marvel API Stories Endpoint
+  /// Get the API Stories Endpoint
   StoriesEndpoint get stories => StoriesEndpoint(httpClient!);
 }
 
-class _DioMarvelApiInterceptor extends Interceptor {
+class _DioMcuApiInterceptor extends Interceptor {
   final String publicApiKey;
   final String privateApiKey;
   final Map<String, dynamic> _queryParameters = {
@@ -62,7 +62,7 @@ class _DioMarvelApiInterceptor extends Interceptor {
     'hash': ''
   };
 
-  _DioMarvelApiInterceptor({
+  _DioMcuApiInterceptor({
     required this.publicApiKey,
     required this.privateApiKey,
   });

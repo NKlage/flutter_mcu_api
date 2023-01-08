@@ -1,4 +1,4 @@
-/// Represents a Marvel Date e.g. ComicDate
+/// Represents a Date e.g. ComicDate
 class DateSummary {
   /// A description of the date (e.g. onsale date, FOC date).
   final String? type;

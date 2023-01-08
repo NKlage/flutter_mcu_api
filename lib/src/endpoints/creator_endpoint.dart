@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import '../models.dart';
 import 'endpoint.dart';
 
-/// Endpoint for the creator of the Marvel API
+/// Endpoint for the creator of the API
 class CreatorEndpoint extends Endpoint<CreatorDataContainer> {
   /// DIO HttpClient
   final Dio httpClient;

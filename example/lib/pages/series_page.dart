@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import 'package:flutter_mcu_api/flutter_mcu_api.dart';
 
 class SeriesPage extends StatefulWidget {
-  final MarvelApi marvelApi;
-  const SeriesPage({Key? key, required this.marvelApi}) : super(key: key);
+  final McuApi mcuApi;
+  const SeriesPage({Key? key, required this.mcuApi}) : super(key: key);
 
   @override
   State<SeriesPage> createState() => _SeriesPageState();
@@ -22,7 +22,7 @@ class _SeriesPageState extends State<SeriesPage> {
     return FutureBuilder(
       // add queryParams to request
       // see api documentation to find params-> https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0
-      future: widget.marvelApi.series.fetch(args: {
+      future: widget.mcuApi.series.fetch(args: {
         'orderBy': '-modified',
         'limit': limit,
         'offset': offset,

@@ -1,7 +1,7 @@
 import '../models.dart' show Serie;
 import 'data_container.dart';
 
-/// Represents the DataContainer for Marvel Series
+/// Represents the DataContainer for Series
 class SeriesDataContainer extends DataContainer<List<Serie>?> {
   /// Default Constructor
   SeriesDataContainer();

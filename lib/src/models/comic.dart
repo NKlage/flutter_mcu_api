@@ -1,6 +1,6 @@
 import '../models.dart';
 
-/// Represents a Marvel Comic
+/// Represents a Comic
 class Comic {
   /// The unique ID of the comic resource.
   final int? id;

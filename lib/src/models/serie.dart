@@ -1,6 +1,6 @@
 import '../models.dart';
 
-/// Represents a Marvel Series
+/// Represents a Series
 class Serie {
   /// The unique ID of the series resource.
   final int? id;

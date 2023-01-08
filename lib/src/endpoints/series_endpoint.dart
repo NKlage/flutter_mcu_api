@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_marvel_api/src/endpoints/endpoint.dart';
+import 'package:flutter_mcu_api/src/endpoints/endpoint.dart';
 
 import '../models.dart';
 
-/// Endpoint for the comics of the Marvel API
+/// Endpoint for the comics of the API
 class SeriesEndpoint extends Endpoint<SeriesDataContainer> {
   /// DIO HttpClient
   final Dio httpClient;

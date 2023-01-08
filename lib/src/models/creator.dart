@@ -1,6 +1,6 @@
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import 'package:flutter_mcu_api/flutter_mcu_api.dart';
 
-/// Represents a Marvel Creator
+/// Represents a Creator
 class Creator {
   /// The unique ID of the creator resource.
   final int? id;

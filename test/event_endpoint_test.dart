@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
+import 'package:flutter_mcu_api/flutter_mcu_api.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 
@@ -17,13 +17,13 @@ void main() {
   };
   late final Dio dio;
   late final DioAdapter dioAdapter;
-  late MarvelApi marvelApi;
+  late McuApi mcuApi;
 
   setUpAll(() {
     dio = Dio(BaseOptions(baseUrl: baseUrl));
     dioAdapter =
-        DioAdapter(dio: dio, matcher: const MarvelApiQueryParamsMatcher());
-    marvelApi = MarvelApi(
+        DioAdapter(dio: dio, matcher: const McuApiQueryParamsMatcher());
+    mcuApi = McuApi(
         publicApiKey: 'publicApiKey',
         privateApiKey: 'privateApiKey',
         httpClient: dio);
@@ -38,7 +38,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<EventDataContainer> apiResponse =
-        await marvelApi.events.fetch();
+        await mcuApi.events.fetch();
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
@@ -60,7 +60,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<CharacterDataContainer> apiResponse =
-        await marvelApi.events.characters(expectedEventId);
+        await mcuApi.events.characters(expectedEventId);
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
@@ -82,7 +82,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<ComicDataContainer> apiResponse =
-        await marvelApi.events.comics(expectedEventId);
+        await mcuApi.events.comics(expectedEventId);
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
@@ -104,7 +104,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<CreatorDataContainer> apiResponse =
-        await marvelApi.events.creators(expectedEventId);
+        await mcuApi.events.creators(expectedEventId);
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
@@ -126,7 +126,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<SeriesDataContainer> apiResponse =
-        await marvelApi.events.series(expectedEventId);
+        await mcuApi.events.series(expectedEventId);
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');
@@ -148,7 +148,7 @@ void main() {
     }, queryParameters: defaultApiQueryParameters);
 
     final ApiResponse<StoryDataContainer> apiResponse =
-        await marvelApi.events.stories(expectedEventId);
+        await mcuApi.events.stories(expectedEventId);
 
     expect(apiResponse.code, HttpStatus.ok);
     expect(apiResponse.status, 'Ok');

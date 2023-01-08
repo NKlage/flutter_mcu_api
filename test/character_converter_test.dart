@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:flutter_marvel_api/flutter_marvel_api.dart';
-import 'package:flutter_marvel_api/src/models.dart';
+import 'package:flutter_mcu_api/flutter_mcu_api.dart';
+import 'package:flutter_mcu_api/src/models.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'api_responses/api_responses.dart';

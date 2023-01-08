@@ -1,7 +1,7 @@
 import '../models.dart'
     show Url, ImageSummary, ComicList, StoryList, EventList, SeriesList;
 
-/// Represents a Marvel Character
+/// Represents a Character
 class Character {
   /// The unique ID of the character resource.
   final int? id;

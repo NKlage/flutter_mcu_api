@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-Encapsulates the Marvel REST API for easy integration with your Flutter App
+Encapsulates the MCU REST API for easy integration with your Flutter App
 
 ## Features
 
@@ -32,7 +32,7 @@ Please note and consider the terms of use of the Marvel API.
 ### Get a list of characters
 ```dart
     // prepare
-    MarvelApi api = MarvelApi(
+    McuApi api = McuApi(
         publicApiKey: 'YOUR PUBLIC API KEY',
         privateApiKey: 'YOUR PRIVATE API KEY'
     );

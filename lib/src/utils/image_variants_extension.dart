@@ -1,5 +1,5 @@
-import 'package:flutter_marvel_api/src/models.dart' show ImageSummary;
-import 'package:flutter_marvel_api/src/utils.dart';
+import 'package:flutter_mcu_api/src/models.dart' show ImageSummary;
+import 'package:flutter_mcu_api/src/utils.dart';
 
 /// Get the Marvel Image Variant
 extension ImageVariants on ImageSummary {

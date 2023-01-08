@@ -1,6 +1,6 @@
 import '../models.dart';
 
-/// Represents a Marvel Event
+/// Represents a Event
 class Event {
   /// The unique ID of the event resource.
   final int? id;

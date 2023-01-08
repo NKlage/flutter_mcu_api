@@ -1,7 +1,7 @@
 import '../models.dart' show Comic;
 import 'data_container.dart';
 
-/// Represents the DataContainer for Marvel Comics
+/// Represents the DataContainer for Comics
 class ComicDataContainer extends DataContainer<List<Comic>?> {
   /// Default Constructor
   ComicDataContainer();
