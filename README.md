@@ -11,46 +11,64 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Encapsulates the Marvel REST API for easy integration with your Flutter App
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- simple authentication, the TS value is calculated in the Interceptor based on the API keys
+- All endpoints including their relations are managed in endpoint objects
+- Query parameters can be easily passed as a map
+- All existing image variations are available as an enumeration
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+First of all you need the API keys, you can get them on the [developer](https://developer.marvel.com) page.
+Please note and consider the terms of use of the Marvel API.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### 
 
+### Get a list of characters
 ```dart
+    // prepare
     MarvelApi api = MarvelApi(
         publicApiKey: 'YOUR PUBLIC API KEY',
         privateApiKey: 'YOUR PRIVATE API KEY'
     );
     ...
 
-    // get all Characters
+    // get hte the first 20 characters
     final ApiResponse<CharacterDataContainer> response = await api.characters.fetch();
     
-    // get list with args
+    // get the next 20 characters with query parameter
     final ApiResponse<CharacterDataContainer> response = await api.characters.fetch(args: { 'offset': 20 });
 
-    // get specific Characters
+    // get a character based on the Id
     final ApiResponse<CharacterDataContainer> response = await api.characters.fetch(id: 4711);
 
 ```
 
-## Additional information
+### Get Relations from Character
+```dart 
+    // get a comic list by character
+    final ApiResponse<CharacterDataContainer> response = await api.characters.comics(4711);
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+    // get a event list from character
+    final ApiResponse<CharacterDataContainer> response = await api.characters.events(4711);
+    
+    ...
+```
+The available relations are mapped in the respective endpoints.
+
+### get image variation
+
+```dart
+    final imageUrl = response.thumbnail?.getImageVariant(ImageSizes.standard_large);
+```
+
+## Additional information
+It's worth taking a look at the API How-Tos and the Interactive Documentation of the Marvel API.
 
 ## TODO
 
@@ -60,7 +78,7 @@ from the package authors, and more.
 - [x] get events 
 - [x] get series 
 - [x] get stories 
-- [ ] add example
+- [x] add example
 - [x] check for null in fromJson methods
 - [ ] complete this readme
 - [ ] changelog for release

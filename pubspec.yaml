@@ -1,6 +1,6 @@
 name: flutter_marvel_api
-description: A MARVEL Rest API library
-version: 0.0.1
+description: A MCU Rest API library
+version: 0.1.0
 homepage: https://github.com/NKlage/flutter_marvel_api
 
 environment:

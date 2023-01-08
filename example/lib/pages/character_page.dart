@@ -121,7 +121,9 @@ class _CharacterPageState extends State<CharacterPage> {
               child: Image.network(
                 // get the standard large image
                 // see https://developer.marvel.com/documentation/images
-                '${character.thumbnail?.path!}/standard_large.${character.thumbnail?.extension!}',
+                character.thumbnail
+                        ?.getImageVariant(ImageSizes.standard_large) ??
+                    'https://via.placeholder.com/140x140.png?text=Upsi',
                 width: 140,
                 height: 140,
               ),

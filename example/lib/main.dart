@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
   int currentViewIndex = 0;
 
   late MarvelApi _marvelApi;
+  // set your api keys here
   final String publicApiKey = const String.fromEnvironment('publicKey');
   final String privateApiKey = const String.fromEnvironment('privateKey');
 
