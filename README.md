@@ -69,17 +69,3 @@ The available relations are mapped in the respective endpoints.
 
 ## Additional information
 It's worth taking a look at the API How-Tos and the Interactive Documentation of the Marvel API.
-
-## TODO
-
-- [x] get characters 
-- [x] get comics 
-- [x] get creators 
-- [x] get events 
-- [x] get series 
-- [x] get stories 
-- [x] add example
-- [x] check for null in fromJson methods
-- [ ] complete this readme
-- [ ] changelog for release
-- [ ] add license
