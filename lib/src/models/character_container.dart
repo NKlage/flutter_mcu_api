@@ -17,9 +17,4 @@ class CharacterDataContainer extends DataContainer<List<Character>?> {
         : List<Character>.from(
             json['results'].map((model) => Character.fromJson(model)));
   }
-
-  @override
-  String toString() {
-    return super.toString();
-  }
 }
