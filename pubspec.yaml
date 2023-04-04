@@ -1,5 +1,5 @@
 name: flutter_mcu_api
-description: A MCU Rest API library
+description: An MCU REST API library to easily access the Marvel API.
 version: 0.1.1
 repository: https://github.com/NKlage/flutter_mcu_api
 
