@@ -1,6 +1,6 @@
 name: flutter_mcu_api
 description: A MCU Rest API library
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/NKlage/flutter_mcu_api
 
 environment:
@@ -8,7 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  dio: ^4.0.6
+  dio: ^5.1.1
   crypto: ^3.0.2
   flutter:
     sdk: flutter
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  http_mock_adapter: ^0.3.3
+  http_mock_adapter: ^0.4.2
 
 flutter:
 
